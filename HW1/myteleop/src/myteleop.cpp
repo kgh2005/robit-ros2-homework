@@ -19,12 +19,12 @@ public:
     {
         // 퍼블리셔 설정
         auto qos_profile = rclcpp::QoS(rclcpp::KeepLast(10));
-        publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", qos_profile);
+        publisher = this->create_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", qos_profile);
         RCLCPP_INFO(this->get_logger(), "'s' square, 'c' circle, 't' triangle, 'r' return, and 'q' quit.");
 
         // 터미널 설정
-        tcgetattr(STDIN_FILENO, &orig_termios_);
-        termios new_termios = orig_termios_;
+        tcgetattr(STDIN_FILENO, &orig_termios);
+        termios new_termios = orig_termios;
         new_termios.c_lflag &= ~(ICANON | ECHO);
         tcsetattr(STDIN_FILENO, TCSANOW, &new_termios);
 
@@ -33,7 +33,7 @@ public:
         fcntl(STDIN_FILENO, F_SETFL, flags | O_NONBLOCK);
 
         // 키 입력 처리
-        timer_ = this->create_wall_timer(
+        timer = this->create_wall_timer(
             std::chrono::milliseconds(100),
             std::bind(&TeleopTurtle::timer_callback, this));
     }
@@ -41,17 +41,17 @@ public:
     ~TeleopTurtle()
     {
         // 원래 터미널 설정 복원
-        tcsetattr(STDIN_FILENO, TCSANOW, &orig_termios_);
+        tcsetattr(STDIN_FILENO, TCSANOW, &orig_termios);
     }
 
 private:
-    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
-    rclcpp::TimerBase::SharedPtr timer_;
+    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher;
+    rclcpp::TimerBase::SharedPtr timer;
     int linear;
     double angular;
     int x;
     double y;
-    termios orig_termios_;   // 원래 터미널 속성을 저장할 변수
+    termios orig_termios;   // 원래 터미널 속성을 저장할 변수
 
     // 직선과 회전 동작을 위한 함수
     void draw_line(int linear, double angular)
@@ -59,7 +59,7 @@ private:
         auto twist = geometry_msgs::msg::Twist();
         twist.linear.x = linear;
         twist.angular.z = angular;
-        publisher_->publish(twist);
+        publisher->publish(twist);
     }
 
     // 사각형 그리기
@@ -103,7 +103,7 @@ private:
     void return_to_center()
     {
         RCLCPP_INFO(this->get_logger(), "Returning to Center");
-        draw_line(0, y);
+        draw_line(0, y * (-1));
         sleep(1); // 대기
         draw_line(x * (-1), 0);
         sleep(1); // 대기
@@ -161,7 +161,7 @@ private:
 
                 if (publish)
                 {
-                    publisher_->publish(twist); // 메시지 퍼블리시
+                    publisher->publish(twist); // 메시지 퍼블리시
                     RCLCPP_INFO(this->get_logger(), "Published Twist: linear.x=%.2f, angular.z=%.2f",
                                 twist.linear.x, twist.angular.z);
                 }
