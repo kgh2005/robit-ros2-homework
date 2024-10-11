@@ -49,6 +49,8 @@ private:
     rclcpp::TimerBase::SharedPtr timer_;
     int linear;
     double angular;
+    int x;
+    double y;
     termios orig_termios_;   // 원래 터미널 속성을 저장할 변수
 
     // 직선과 회전 동작을 위한 함수
@@ -67,9 +69,9 @@ private:
         for (int i = 0; i < 4; i++)
         {
             draw_line(2, 0);  // 직진
-            sleep(1); // 1초 대기
+            sleep(1); // 대기
             draw_line(0, 1.57); // 90도 회전 (1.57 라디안)
-            sleep(1); // 1초 대기
+            sleep(1); // 대기
         }
     }
 
@@ -79,8 +81,8 @@ private:
         RCLCPP_INFO(this->get_logger(), "Circle");
         for(int i = 0; i < 4; i++)
         {
-            draw_line(2, 1.57); // 원을 그리기 위해 직진과 동시에 회전
-            sleep(1); // 10초 대기
+            draw_line(2, 1.57); // 원을 그리기
+            sleep(1); // 대기
         }
     }
 
@@ -91,9 +93,9 @@ private:
         for (int i = 0; i < 3; i++)
         {
             draw_line(2, 0.0);  // 직진
-            sleep(1); // 1초 대기
+            sleep(1); // 대기
             draw_line(0, 2.09); // 120도 회전 (2.09 라디안)
-            sleep(1); // 1초 대기
+            sleep(1); // 대기
         }
     }
 
@@ -101,16 +103,20 @@ private:
     void return_to_center()
     {
         RCLCPP_INFO(this->get_logger(), "Returning to Center");
-        draw_line(-2, 0.0); // 원점으로 이동하기 위해 후진
-        sleep(1); // 1초 대기
+        draw_line(0, y);
+        sleep(1); // 대기
+        draw_line(x * (-1), 0);
+        sleep(1); // 대기
         draw_line(0, 0.0); // 정지
+        x = 0;
+        y = 0.0;
     }
 
     // 타이머 콜백 함수
     void timer_callback()
     {
         char key;
-        ssize_t size = read(STDIN_FILENO, &key, 1); // 입력 읽기
+        int size = read(STDIN_FILENO, &key, 1); // 입력 읽기
         if (size > 0)
         {
             if (key == '\x1b') // 방향키는 이스케이프 시퀀스로 시작
@@ -129,21 +135,25 @@ private:
                         case 'A': // 위쪽 화살표
                         case 75:
                             twist.linear.x = linear;
+                            x += linear;
                             publish = true;
                             break;
                         case 'B': // 아래쪽 화살표
                         case 77:
                             twist.linear.x = -linear;
+                            x -= linear;
                             publish = true;
                             break;
                         case 'C': // 오른쪽 화살표
                         case 79:
                             twist.angular.z = -angular;
+                            y -= angular;
                             publish = true;
                             break;
                         case 'D': // 왼쪽 화살표
                         case 76:
                             twist.angular.z = angular;
+                            y += angular;
                             publish = true;
                             break;
                     }
@@ -171,7 +181,7 @@ private:
                     return_to_center();
                     break;
                 case 'q':
-                    RCLCPP_INFO(this->get_logger(), "Shutting down Teleop Turtle Node.");
+                    RCLCPP_INFO(this->get_logger(), "Shut down");
                     rclcpp::shutdown();
                     break;
             }
