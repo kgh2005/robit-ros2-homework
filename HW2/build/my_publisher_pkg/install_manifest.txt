@@ -1,0 +1,16 @@
+/home/kgh/robot_ws/src/install/my_publisher_pkg/lib/my_publisher_pkg/publisher_node
+/home/kgh/robot_ws/src/install/my_publisher_pkg/share/ament_index/resource_index/package_run_dependencies/my_publisher_pkg
+/home/kgh/robot_ws/src/install/my_publisher_pkg/share/ament_index/resource_index/parent_prefix_path/my_publisher_pkg
+/home/kgh/robot_ws/src/install/my_publisher_pkg/share/my_publisher_pkg/environment/ament_prefix_path.sh
+/home/kgh/robot_ws/src/install/my_publisher_pkg/share/my_publisher_pkg/environment/ament_prefix_path.dsv
+/home/kgh/robot_ws/src/install/my_publisher_pkg/share/my_publisher_pkg/environment/path.sh
+/home/kgh/robot_ws/src/install/my_publisher_pkg/share/my_publisher_pkg/environment/path.dsv
+/home/kgh/robot_ws/src/install/my_publisher_pkg/share/my_publisher_pkg/local_setup.bash
+/home/kgh/robot_ws/src/install/my_publisher_pkg/share/my_publisher_pkg/local_setup.sh
+/home/kgh/robot_ws/src/install/my_publisher_pkg/share/my_publisher_pkg/local_setup.zsh
+/home/kgh/robot_ws/src/install/my_publisher_pkg/share/my_publisher_pkg/local_setup.dsv
+/home/kgh/robot_ws/src/install/my_publisher_pkg/share/my_publisher_pkg/package.dsv
+/home/kgh/robot_ws/src/install/my_publisher_pkg/share/ament_index/resource_index/packages/my_publisher_pkg
+/home/kgh/robot_ws/src/install/my_publisher_pkg/share/my_publisher_pkg/cmake/my_publisher_pkgConfig.cmake
+/home/kgh/robot_ws/src/install/my_publisher_pkg/share/my_publisher_pkg/cmake/my_publisher_pkgConfig-version.cmake
+/home/kgh/robot_ws/src/install/my_publisher_pkg/share/my_publisher_pkg/package.xml

@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_interface/srv/AddThreeInts.srv
+// generated code does not contain a copyright notice
+
+
+module custom_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "요청(Request)")
+    struct AddThreeInts_Request {
+      string message;
+
+      int64 num;
+    };
+    @verbatim (language="comment", text=
+      "응답(Response)")
+    struct AddThreeInts_Response {
+      string message;
+
+      int64 sum;
+    };
+  };
+};

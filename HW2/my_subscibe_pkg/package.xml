@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>my_subscribe_pkg</name>  <!-- 패키지 이름 수정 -->
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="leokim0503@kw.ac.kr">kgh</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Build dependencies -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>  <!-- rclcpp 의존성 추가 -->
+  <depend>tutorial_interface</depend>  <!-- tutorial_interface 의존성 추가 -->
+
+  <!-- Test dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,6 @@
+{
+  "package_name": "tutorial_interface",
+  "non_idl_tuples": [
+    "/home/kgh/robot_ws/src/tutorial_interface:msg/Num.msg"
+  ]
+}

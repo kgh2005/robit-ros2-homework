@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tutorial_interface/msg/Num.msg
+// generated code does not contain a copyright notice
+
+
+module tutorial_interface {
+  module msg {
+    struct Num {
+      string message;
+    };
+  };
+};

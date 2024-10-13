@@ -1,0 +1,7 @@
+# 요청(Request)
+string message
+int64 num
+---
+# 응답(Response)
+string message
+int64 sum

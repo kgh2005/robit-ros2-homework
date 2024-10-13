@@ -1,0 +1,8 @@
+{
+  "package_name": "custom_interface",
+  "non_idl_tuples": [
+    "/home/kgh/robot_ws/src/custom_interface:msg/Num.msg",
+    "/home/kgh/robot_ws/src/custom_interface:msg/Sphere.msg",
+    "/home/kgh/robot_ws/src/custom_interface:srv/AddThreeInts.srv"
+  ]
+}
