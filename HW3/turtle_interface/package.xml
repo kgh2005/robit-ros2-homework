@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>turtle_interface</name>
+  <version>0.0.0</version>
+  <description>ROS 2 tutorial interface package</description>
+  <maintainer email="leokim0503@kw.ac.kr">kgh</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- 빌드 도구 의존성 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <!-- 런타임 및 빌드 의존성 -->
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>rosidl_default_runtime</depend>
+
+  <!-- 메시지 패키지 그룹 -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <!-- 테스트 의존성 -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

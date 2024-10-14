@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ui_test</name>
+  <version>0.0.0</version>
+  <description>UI test package with ROS2 and Qt integration</description>
+  <maintainer email="chaely02@naver.com">yoon</maintainer>
+  <license>BSD</license>
+
+  <!-- ROS2 build tool -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- ROS2 dependencies -->
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>  <!-- geometry_msgs 의존성 추가 -->
+
+  <!-- Qt5/Qt6 dependencies -->
+  <exec_depend>qtbase5-dev</exec_depend>  <!-- Qt5 -->
+  <exec_depend>qt6-base</exec_depend>  <!-- Qt6 의존성 추가 -->
+
+  <!-- Linting tools for code quality -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

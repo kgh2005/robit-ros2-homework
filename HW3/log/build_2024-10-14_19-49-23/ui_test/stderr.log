@@ -1,0 +1,21 @@
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:1[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:6:10:[m[K [01;31m[Kfatal error: [m[Kcustom_msgs_pkg/msg/num.hpp: No such file or directory
+    6 | #include [01;31m[K"custom_msgs_pkg/msg/num.hpp"[m[K  // 수정된 부분
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ui_test.dir/build.make:98: CMakeFiles/ui_test.dir/src/mainwindow.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test/include/moc_mainwindow.cpp:10[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test/include/../../../ui_test/include/mainwindow.h:6:10:[m[K [01;31m[Kfatal error: [m[Kcustom_msgs_pkg/msg/num.hpp: No such file or directory
+    6 | #include [01;31m[K"custom_msgs_pkg/msg/num.hpp"[m[K  // 수정된 부분
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/main.cpp:1[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:6:10:[m[K [01;31m[Kfatal error: [m[Kcustom_msgs_pkg/msg/num.hpp: No such file or directory
+    6 | #include [01;31m[K"custom_msgs_pkg/msg/num.hpp"[m[K  // 수정된 부분
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ui_test.dir/build.make:112: CMakeFiles/ui_test.dir/include/moc_mainwindow.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/ui_test.dir/build.make:84: CMakeFiles/ui_test.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ui_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

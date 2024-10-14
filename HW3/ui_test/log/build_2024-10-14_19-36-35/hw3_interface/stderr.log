@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:13 (find_package):
+  By not providing "Findhw3_interface.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "hw3_interface", but CMake did not find one.
+
+  Could not find a package configuration file provided by "hw3_interface"
+  with any of the following names:
+
+    hw3_interfaceConfig.cmake
+    hw3_interface-config.cmake
+
+  Add the installation prefix of "hw3_interface" to CMAKE_PREFIX_PATH or set
+  "hw3_interface_DIR" to a directory containing one of the above files.  If
+  "hw3_interface" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m

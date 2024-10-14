@@ -1,0 +1,61 @@
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test/include/moc_mainwindow.cpp:10[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test/include/../../../ui_test/include/mainwindow.h:35:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometry[m[K’?
+   35 |     rclcpp::Publisher<[01;31m[Kgeometry_msgs[m[K::msg::Twist>::SharedPtr twist_publisher_;  // Twist 메시지 퍼블리셔
+      |                       [01;31m[K^~~~~~~~~~~~~[m[K
+      |                       [32m[Kgeometry[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test/include/../../../ui_test/include/mainwindow.h:35:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   35 |     rclcpp::Publisher<geometry_msgs::msg::Twist[01;31m[K>[m[K::SharedPtr twist_publisher_;  // Twist 메시지 퍼블리셔
+      |                                                [01;31m[K^[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test/include/../../../ui_test/include/mainwindow.h:35:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   35 |     rclcpp::Publisher<geometry_msgs::msg::Twist>::[01;31m[KSharedPtr[m[K twist_publisher_;  // Twist 메시지 퍼블리셔
+      |                                                   [01;31m[K^~~~~~~~~[m[K
+      |                                                            [32m[K;[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test/include/../../../ui_test/include/mainwindow.h:35:61:[m[K [01;31m[Kerror: [m[K‘[01m[Ktwist_publisher_[m[K’ does not name a type
+   35 |     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr [01;31m[Ktwist_publisher_[m[K;  // Twist 메시지 퍼블리셔
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/main.cpp:1[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:35:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometry[m[K’?
+   35 |     rclcpp::Publisher<[01;31m[Kgeometry_msgs[m[K::msg::Twist>::SharedPtr twist_publisher_;  // Twist 메시지 퍼블리셔
+      |                       [01;31m[K^~~~~~~~~~~~~[m[K
+      |                       [32m[Kgeometry[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:35:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   35 |     rclcpp::Publisher<geometry_msgs::msg::Twist[01;31m[K>[m[K::SharedPtr twist_publisher_;  // Twist 메시지 퍼블리셔
+      |                                                [01;31m[K^[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:35:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   35 |     rclcpp::Publisher<geometry_msgs::msg::Twist>::[01;31m[KSharedPtr[m[K twist_publisher_;  // Twist 메시지 퍼블리셔
+      |                                                   [01;31m[K^~~~~~~~~[m[K
+      |                                                            [32m[K;[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:35:61:[m[K [01;31m[Kerror: [m[K‘[01m[Ktwist_publisher_[m[K’ does not name a type
+   35 |     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr [01;31m[Ktwist_publisher_[m[K;  // Twist 메시지 퍼블리셔
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:1[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:35:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometry[m[K’?
+   35 |     rclcpp::Publisher<[01;31m[Kgeometry_msgs[m[K::msg::Twist>::SharedPtr twist_publisher_;  // Twist 메시지 퍼블리셔
+      |                       [01;31m[K^~~~~~~~~~~~~[m[K
+      |                       [32m[Kgeometry[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:35:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   35 |     rclcpp::Publisher<geometry_msgs::msg::Twist[01;31m[K>[m[K::SharedPtr twist_publisher_;  // Twist 메시지 퍼블리셔
+      |                                                [01;31m[K^[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:35:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   35 |     rclcpp::Publisher<geometry_msgs::msg::Twist>::[01;31m[KSharedPtr[m[K twist_publisher_;  // Twist 메시지 퍼블리셔
+      |                                                   [01;31m[K^~~~~~~~~[m[K
+      |                                                            [32m[K;[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:35:61:[m[K [01;31m[Kerror: [m[K‘[01m[Ktwist_publisher_[m[K’ does not name a type
+   35 |     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr [01;31m[Ktwist_publisher_[m[K;  // Twist 메시지 퍼블리셔
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(QWidget*)[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktwist_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Knum_publisher_[m[K’?
+   16 |     [01;31m[Ktwist_publisher_[m[K = node_->create_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", 10);
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |     [32m[Knum_publisher_[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::publishDirection(double, double)[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktwist_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Knum_publisher_[m[K’?
+   41 |     [01;31m[Ktwist_publisher_[m[K->publish(twist_msg);  // Twist 메시지 퍼블리시
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |     [32m[Knum_publisher_[m[K
+gmake[2]: *** [CMakeFiles/ui_test.dir/build.make:112: CMakeFiles/ui_test.dir/include/moc_mainwindow.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/ui_test.dir/build.make:84: CMakeFiles/ui_test.dir/src/main.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/ui_test.dir/build.make:98: CMakeFiles/ui_test.dir/src/mainwindow.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ui_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

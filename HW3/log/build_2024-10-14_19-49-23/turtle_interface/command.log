@@ -1,0 +1,2 @@
+Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/build/turtle_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/build/turtle_interface -- -j20 -l20
+Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/build/turtle_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/build/turtle_interface -- -j20 -l20

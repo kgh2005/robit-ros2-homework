@@ -1,0 +1,14 @@
+[0.010s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test -- -j20 -l20
+[0.045s] [ 16%] [34m[1mGenerating include/moc_mainwindow.cpp[0m
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target ui_test[0m
+[0.098s] [ 33%] [32mBuilding CXX object CMakeFiles/ui_test.dir/src/main.cpp.o[0m
+[0.100s] [ 50%] [32mBuilding CXX object CMakeFiles/ui_test.dir/include/moc_mainwindow.cpp.o[0m
+[0.100s] [ 66%] [32mBuilding CXX object CMakeFiles/ui_test.dir/src/mainwindow.cpp.o[0m
+[2.078s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::publishDirection(double, double)[m[K’:
+[2.078s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct turtle_interface::msg::Num_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kmessage[m[K’
+[2.078s]    20 |     msg.[01;31m[Kmessage[m[K = "Linear: " + std::to_string(linear) + ", Angular: " + std::to_string(angular);
+[2.078s]       |         [01;31m[K^~~~~~~[m[K
+[2.868s] gmake[2]: *** [CMakeFiles/ui_test.dir/build.make:98: CMakeFiles/ui_test.dir/src/mainwindow.cpp.o] Error 1
+[2.868s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ui_test.dir/all] Error 2
+[2.869s] gmake: *** [Makefile:146: all] Error 2
+[2.871s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test -- -j20 -l20

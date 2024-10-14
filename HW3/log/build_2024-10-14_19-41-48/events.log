@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.000847] (turtle_interface) JobQueued: {'identifier': 'turtle_interface', 'dependencies': OrderedDict()}
+[0.000901] (ui_test) JobQueued: {'identifier': 'ui_test', 'dependencies': OrderedDict()}
+[0.000914] (turtle_interface) JobStarted: {'identifier': 'turtle_interface'}
+[0.004307] (ui_test) JobStarted: {'identifier': 'ui_test'}
+[0.006884] (turtle_interface) JobProgress: {'identifier': 'turtle_interface', 'progress': 'cmake'}
+[0.007157] (turtle_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface', '-DCMAKE_INSTALL_PREFIX=/home/kgh/GITHUB/robit-ros2-homework/HW3/install/turtle_interface'], 'cwd': '/home/kgh/GITHUB/robit-ros2-homework/HW3/build/turtle_interface', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'kgh'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/kgh/robot_ws/install/tutorial_interface/lib:/home/kgh/robot_ws/install/custom_interface/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kgh'), ('OLDPWD', '/home/kgh'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1147'), ('SYSTEMD_EXEC_PID', '1576'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12574'), ('_colcon_cd_root', '/home/kgh/robot_ws'), ('COLCON_PREFIX_PATH', '/home/kgh/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kgh'), ('JOURNAL_STREAM', '8:24044'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kgh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/kgh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kgh-Stealth-15M-B12UE:@/tmp/.ICE-unix/1549,unix/kgh-Stealth-15M-B12UE:/tmp/.ICE-unix/1549'), ('INVOCATION_ID', 'a9b522d356bf4d2ab07e06cbf0fa65cb'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/kgh/robot_ws/install/my_subscribe_pkg:/home/kgh/robot_ws/install/tutorial_interface:/home/kgh/robot_ws/install/my_publisher_pkg:/home/kgh/robot_ws/install/custom_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:96d8d887-08b0-4243-bae3-7b856fb24f1d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/kgh/GITHUB/robit-ros2-homework/HW3/build/turtle_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kgh/robot_ws/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/kgh/robot_ws/install/custom_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kgh/robot_ws/install/my_subscribe_pkg:/home/kgh/robot_ws/install/tutorial_interface:/home/kgh/robot_ws/install/my_publisher_pkg:/home/kgh/robot_ws/install/custom_interface:/opt/ros/humble')]), 'shell': False}
+[0.010778] (ui_test) JobProgress: {'identifier': 'ui_test', 'progress': 'cmake'}
+[0.010958] (ui_test) Command: {'cmd': ['/usr/bin/cmake', '/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test', '-DCMAKE_INSTALL_PREFIX=/home/kgh/GITHUB/robit-ros2-homework/HW3/install/ui_test'], 'cwd': '/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'kgh'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/kgh/robot_ws/install/tutorial_interface/lib:/home/kgh/robot_ws/install/custom_interface/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kgh'), ('OLDPWD', '/home/kgh'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1147'), ('SYSTEMD_EXEC_PID', '1576'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12574'), ('_colcon_cd_root', '/home/kgh/robot_ws'), ('COLCON_PREFIX_PATH', '/home/kgh/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kgh'), ('JOURNAL_STREAM', '8:24044'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kgh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/kgh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kgh-Stealth-15M-B12UE:@/tmp/.ICE-unix/1549,unix/kgh-Stealth-15M-B12UE:/tmp/.ICE-unix/1549'), ('INVOCATION_ID', 'a9b522d356bf4d2ab07e06cbf0fa65cb'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/kgh/robot_ws/install/my_subscribe_pkg:/home/kgh/robot_ws/install/tutorial_interface:/home/kgh/robot_ws/install/my_publisher_pkg:/home/kgh/robot_ws/install/custom_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:96d8d887-08b0-4243-bae3-7b856fb24f1d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kgh/robot_ws/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/kgh/robot_ws/install/custom_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kgh/robot_ws/install/my_subscribe_pkg:/home/kgh/robot_ws/install/tutorial_interface:/home/kgh/robot_ws/install/my_publisher_pkg:/home/kgh/robot_ws/install/custom_interface:/opt/ros/humble')]), 'shell': False}
+[0.054800] (turtle_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.061139] (ui_test) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.093455] (turtle_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.098692] (turtle_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.100035] (-) TimerEvent: {}
+[0.102185] (ui_test) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.107322] (ui_test) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.157501] (turtle_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.163413] (turtle_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.163503] (turtle_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.163618] (turtle_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.164773] (ui_test) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.166027] (turtle_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.170028] (ui_test) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.170416] (ui_test) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.170526] (ui_test) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.172722] (ui_test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.200147] (-) TimerEvent: {}
+[0.230718] (turtle_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.239180] (ui_test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.240073] (turtle_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.240246] (turtle_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.240696] (turtle_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.242192] (turtle_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.244887] (ui_test) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.245090] (ui_test) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.245396] (ui_test) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.246825] (ui_test) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300252] (-) TimerEvent: {}
+[0.343684] (ui_test) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.344925] (turtle_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.399567] (turtle_interface) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.399868] (ui_test) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400308] (-) TimerEvent: {}
+[0.422027] (turtle_interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.424537] (ui_test) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.424895] (turtle_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.427398] (ui_test) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.430378] (turtle_interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.434245] (ui_test) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.438728] (turtle_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.441404] (ui_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.448022] (turtle_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.450649] (ui_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.472460] (turtle_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.473889] (turtle_interface) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.475258] (ui_test) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.476694] (ui_test) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500413] (-) TimerEvent: {}
+[0.533077] (turtle_interface) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.538459] (ui_test) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.549218] (turtle_interface) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.553882] (ui_test) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.573049] (turtle_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.577291] (turtle_interface) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.577417] (ui_test) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.583780] (ui_test) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.600516] (-) TimerEvent: {}
+[0.635200] (turtle_interface) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.635624] (turtle_interface) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.638884] (ui_test) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.639334] (ui_test) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.693868] (turtle_interface) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.694758] (turtle_interface) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.695151] (ui_test) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.696450] (ui_test) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.700579] (-) TimerEvent: {}
+[0.727369] (turtle_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.734539] (ui_test) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:13 (find_package):\n'}
+[0.734705] (ui_test) StderrLine: {'line': b'  By not providing "Findturtle_interface.cmake" in CMAKE_MODULE_PATH this\n'}
+[0.734787] (ui_test) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[0.734837] (ui_test) StderrLine: {'line': b'  "turtle_interface", but CMake did not find one.\n'}
+[0.734876] (ui_test) StderrLine: {'line': b'\n'}
+[0.734913] (ui_test) StderrLine: {'line': b'  Could not find a package configuration file provided by "turtle_interface"\n'}
+[0.734969] (ui_test) StderrLine: {'line': b'  with any of the following names:\n'}
+[0.735005] (ui_test) StderrLine: {'line': b'\n'}
+[0.735043] (ui_test) StderrLine: {'line': b'    turtle_interfaceConfig.cmake\n'}
+[0.735086] (ui_test) StderrLine: {'line': b'    turtle_interface-config.cmake\n'}
+[0.735128] (ui_test) StderrLine: {'line': b'\n'}
+[0.735163] (ui_test) StderrLine: {'line': b'  Add the installation prefix of "turtle_interface" to CMAKE_PREFIX_PATH or\n'}
+[0.735200] (ui_test) StderrLine: {'line': b'  set "turtle_interface_DIR" to a directory containing one of the above\n'}
+[0.735239] (ui_test) StderrLine: {'line': b'  files.  If "turtle_interface" provides a separate development package or\n'}
+[0.735280] (ui_test) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[0.735314] (ui_test) StderrLine: {'line': b'\n'}
+[0.735346] (ui_test) StderrLine: {'line': b'\x1b[0m\n'}
+[0.735381] (ui_test) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.735422] (ui_test) StdoutLine: {'line': b'See also "/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test/CMakeFiles/CMakeOutput.log".\n'}
+[0.741896] (ui_test) CommandEnded: {'returncode': 1}
+[0.755958] (ui_test) JobEnded: {'identifier': 'ui_test', 'rc': 1}
+[0.800797] (-) TimerEvent: {}
+[0.886371] (turtle_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.900998] (-) TimerEvent: {}
+[1.001300] (-) TimerEvent: {}
+[1.062109] (turtle_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101492] (-) TimerEvent: {}
+[1.132352] (turtle_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.147053] (turtle_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.147786] (turtle_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.163412] (turtle_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.163513] (turtle_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.163548] (turtle_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.163584] (turtle_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.173382] (turtle_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.192973] (turtle_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.200597] (turtle_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.201046] (turtle_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.201589] (-) TimerEvent: {}
+[1.202474] (turtle_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.215529] (turtle_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[1.216944] (turtle_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/kgh/GITHUB/robit-ros2-homework/HW3/build/turtle_interface\n'}
+[1.223497] (turtle_interface) JobEnded: {'identifier': 'turtle_interface', 'rc': 'SIGINT'}
+[1.234037] (-) EventReactorShutdown: {}

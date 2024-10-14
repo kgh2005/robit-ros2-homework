@@ -1,0 +1,18 @@
+[31mCMake Error at CMakeLists.txt:13 (find_package):
+  By not providing "Findcustom_msgs_pkg.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "custom_msgs_pkg", but CMake did not find one.
+
+  Could not find a package configuration file provided by "custom_msgs_pkg"
+  with any of the following names:
+
+    custom_msgs_pkgConfig.cmake
+    custom_msgs_pkg-config.cmake
+
+  Add the installation prefix of "custom_msgs_pkg" to CMAKE_PREFIX_PATH or
+  set "custom_msgs_pkg_DIR" to a directory containing one of the above files.
+  If "custom_msgs_pkg" provides a separate development package or SDK, be
+  sure it has been installed.
+
+[0m
+gmake: *** [Makefile:348: cmake_check_build_system] Error 1

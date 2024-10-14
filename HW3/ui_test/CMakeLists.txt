@@ -10,7 +10,8 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
-find_package(geometry_msgs REQUIRED)  # geometry_msgs 패키지 추가
+find_package(turtle_interface REQUIRED)  # tutorial_interface 패키지 추가
+find_package(geometry_msgs REQUIRED)     # geometry_msgs 패키지 추가
 
 # C++ 표준 버전 설정 (C++14 사용 권장)
 set(CMAKE_CXX_STANDARD 14)
@@ -49,26 +50,20 @@ set(UI_FILES
     ui/mainwindow.ui
 )
 
-set(RESOURCE_FILES
-    resources/resources.qrc
-)
-
 # MOC(Meta-Object Compiler) 및 UI 파일 처리
 if(QT_VERSION_MAJOR EQUAL 6)
     qt6_wrap_cpp(MOC_SOURCES ${HEADERS})
     qt6_wrap_ui(UIC_SOURCES ${UI_FILES})
-    qt_add_resources(RESOURCE_SOURCES ${RESOURCE_FILES})
 else()
     qt5_wrap_cpp(MOC_SOURCES ${HEADERS})
     qt5_wrap_ui(UIC_SOURCES ${UI_FILES})
-    qt5_add_resources(RESOURCE_SOURCES ${RESOURCE_FILES})
 endif()
 
 # 실행 파일 생성
-add_executable(${PROJECT_NAME} ${SOURCES} ${MOC_SOURCES} ${UIC_SOURCES} ${RESOURCE_SOURCES})
+add_executable(${PROJECT_NAME} ${SOURCES} ${MOC_SOURCES} ${UIC_SOURCES})
 
 # ROS2 및 Qt Widgets 라이브러리 의존성 추가
-ament_target_dependencies(${PROJECT_NAME} rclcpp std_msgs geometry_msgs)  # geometry_msgs 추가
+ament_target_dependencies(${PROJECT_NAME} rclcpp std_msgs turtle_interface geometry_msgs)  # geometry_msgs 의존성 추가
 
 # Qt Widgets 라이브러리 링크
 if(QT_VERSION_MAJOR EQUAL 6)

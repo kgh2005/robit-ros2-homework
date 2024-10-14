@@ -1,0 +1,28 @@
+[0.009s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test -- -j20 -l20
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target ui_test[0m
+[0.084s] [ 16%] [32mBuilding CXX object CMakeFiles/ui_test.dir/src/main.cpp.o[0m
+[2.199s] [ 33%] [32m[1mLinking CXX executable ui_test[0m
+[2.515s] [100%] Built target ui_test
+[2.528s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test -- -j20 -l20
+[2.556s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test
+[2.560s] -- Install configuration: ""
+[2.560s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/install/ui_test/lib/ui_test/ui_test
+[2.561s] -- Set runtime path of "/home/kgh/GITHUB/robit-ros2-homework/HW3/install/ui_test/lib/ui_test/ui_test" to ""
+[2.561s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/install/ui_test/include/ui_test
+[2.561s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/install/ui_test/include/ui_test/mainwindow.h
+[2.561s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/install/ui_test/share/ament_index/resource_index/package_run_dependencies/ui_test
+[2.561s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/install/ui_test/share/ament_index/resource_index/parent_prefix_path/ui_test
+[2.562s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/install/ui_test/share/ui_test/environment/ament_prefix_path.sh
+[2.562s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/install/ui_test/share/ui_test/environment/ament_prefix_path.dsv
+[2.562s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/install/ui_test/share/ui_test/environment/path.sh
+[2.562s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/install/ui_test/share/ui_test/environment/path.dsv
+[2.562s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/install/ui_test/share/ui_test/local_setup.bash
+[2.562s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/install/ui_test/share/ui_test/local_setup.sh
+[2.562s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/install/ui_test/share/ui_test/local_setup.zsh
+[2.562s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/install/ui_test/share/ui_test/local_setup.dsv
+[2.562s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/install/ui_test/share/ui_test/package.dsv
+[2.562s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/install/ui_test/share/ament_index/resource_index/packages/ui_test
+[2.563s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/install/ui_test/share/ui_test/cmake/ui_testConfig.cmake
+[2.563s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/install/ui_test/share/ui_test/cmake/ui_testConfig-version.cmake
+[2.564s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/install/ui_test/share/ui_test/package.xml
+[2.565s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test

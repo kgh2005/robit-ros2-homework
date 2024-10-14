@@ -1,0 +1,30 @@
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::publishDirection(double, double)[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:39:24:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >::_linear_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[Kdouble[m[K’)
+   39 |     twist_msg.linear = [01;31m[Klinear[m[K;
+      |                        [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7[m[K,
+                 from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:7[m[K,
+                 from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Vector3_<std::allocator<void> >& geometry_msgs::msg::Vector3_<std::allocator<void> >::operator=(const geometry_msgs::msg::Vector3_<std::allocator<void> >&)[m[K’
+   32 | struct [01;36m[KVector3_[m[K
+      |        [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst geometry_msgs::msg::Vector3_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Vector3_<std::allocator<void> >& geometry_msgs::msg::Vector3_<std::allocator<void> >::operator=(geometry_msgs::msg::Vector3_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >&&[m[K’
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:40:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >::_angular_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[Kdouble[m[K’)
+   40 |     twist_msg.angular = [01;31m[Kangular[m[K;
+      |                         [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7[m[K,
+                 from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:7[m[K,
+                 from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Vector3_<std::allocator<void> >& geometry_msgs::msg::Vector3_<std::allocator<void> >::operator=(const geometry_msgs::msg::Vector3_<std::allocator<void> >&)[m[K’
+   32 | struct [01;36m[KVector3_[m[K
+      |        [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst geometry_msgs::msg::Vector3_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Vector3_<std::allocator<void> >& geometry_msgs::msg::Vector3_<std::allocator<void> >::operator=(geometry_msgs::msg::Vector3_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >&&[m[K’
+gmake[2]: *** [CMakeFiles/ui_test.dir/build.make:98: CMakeFiles/ui_test.dir/src/mainwindow.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ui_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

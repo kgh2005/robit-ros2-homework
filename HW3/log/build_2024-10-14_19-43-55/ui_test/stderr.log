@@ -1,0 +1,4 @@
+gmake[2]: *** No rule to make target '/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/resources/images/button_down.png', needed by 'qrc_resources.cpp'.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/ui_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

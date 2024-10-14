@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target ui_test[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/ui_test.dir/src/mainwindow.cpp.o[0m
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(QWidget*)[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktwist_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_[m[K’?
+   16 |     [01;31m[Ktwist_publisher_[m[K = node_->create_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", 10);
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kpublisher_[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:17:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knum_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_[m[K’?
+   17 |     [01;31m[Knum_publisher_[m[K = node_->create_publisher<turtle_interface::msg::Num>("direction_topic", 10);
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+      |     [32m[Kpublisher_[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:21:57:[m[K [01;31m[Kerror: [m[K‘[01m[KspinSome[m[K’ is not a member of ‘[01m[KMainWindow[m[K’
+   21 | his, &MainWindow::[01;31m[KspinSome[m[K);  // 타이머가 호출될 때 spinSome 호출
+      |                   [01;31m[K^~~~~~~~[m[K
+
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::publishDirection(double, double)[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knum_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_[m[K’?
+   35 |     [01;31m[Knum_publisher_[m[K->publish(num_msg);  // Num 메시지 퍼블리시
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+      |     [32m[Kpublisher_[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktwist_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_[m[K’?
+   41 |     [01;31m[Ktwist_publisher_[m[K->publish(twist_msg);  // Twist 메시지 퍼블리시
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kpublisher_[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:[m[K At global scope:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:65:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid MainWindow::spinSome()[m[K’
+   65 | void [01;31m[KMainWindow[m[K::spinSome()
+      |      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:65:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid MainWindow::spinSome()[m[K’
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:1[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:12:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass MainWindow[m[K’ defined here
+   12 | class [01;36m[KMainWindow[m[K : public QMainWindow
+      |       [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ui_test.dir/build.make:98: CMakeFiles/ui_test.dir/src/mainwindow.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ui_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,48 @@
+[0.011s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test -- -j20 -l20
+[0.047s] [ 16%] [34m[1mGenerating include/moc_mainwindow.cpp[0m
+[0.070s] [ 33%] [32mBuilding CXX object CMakeFiles/ui_test.dir/src/main.cpp.o[0m
+[0.070s] [ 50%] [32mBuilding CXX object CMakeFiles/ui_test.dir/include/moc_mainwindow.cpp.o[0m
+[0.070s] [ 66%] [32mBuilding CXX object CMakeFiles/ui_test.dir/src/mainwindow.cpp.o[0m
+[0.344s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/num.hpp: No such file or directory
+[0.345s]     4 | #include [01;31m[K"geometry_msgs/msg/num.hpp"[m[K
+[0.345s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.345s] compilation terminated.
+[0.347s] gmake[2]: *** [CMakeFiles/ui_test.dir/build.make:98: CMakeFiles/ui_test.dir/src/mainwindow.cpp.o] Error 1
+[0.347s] gmake[2]: *** Waiting for unfinished jobs....
+[1.901s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test/include/moc_mainwindow.cpp:10[m[K:
+[1.902s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test/include/../../../ui_test/include/mainwindow.h:35:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometry[m[K’?
+[1.902s]    35 |     rclcpp::Publisher<[01;31m[Kgeometry_msgs[m[K::msg::Twist>::SharedPtr publisher_;
+[1.902s]       |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[1.902s]       |                       [32m[Kgeometry[m[K
+[1.902s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/main.cpp:1[m[K:
+[1.902s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:35:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometry[m[K’?
+[1.902s]    35 |     rclcpp::Publisher<[01;31m[Kgeometry_msgs[m[K::msg::Twist>::SharedPtr publisher_;
+[1.902s]       |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[1.902s]       |                       [32m[Kgeometry[m[K
+[1.902s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test/include/../../../ui_test/include/mainwindow.h:35:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.902s]    35 |     rclcpp::Publisher<geometry_msgs::msg::Twist[01;31m[K>[m[K::SharedPtr publisher_;
+[1.902s]       |                                                [01;31m[K^[m[K
+[1.902s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:35:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.902s]    35 |     rclcpp::Publisher<geometry_msgs::msg::Twist[01;31m[K>[m[K::SharedPtr publisher_;
+[1.902s]       |                                                [01;31m[K^[m[K
+[1.902s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:35:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.902s]    35 |     rclcpp::Publisher<geometry_msgs::msg::Twist>::[01;31m[KSharedPtr[m[K publisher_;
+[1.902s]       |                                                   [01;31m[K^~~~~~~~~[m[K
+[1.902s]       |                                                            [32m[K;[m[K
+[1.902s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test/include/../../../ui_test/include/mainwindow.h:35:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.902s]    35 |     rclcpp::Publisher<geometry_msgs::msg::Twist>::[01;31m[KSharedPtr[m[K publisher_;
+[1.902s]       |                                                   [01;31m[K^~~~~~~~~[m[K
+[1.902s]       |                                                            [32m[K;[m[K
+[1.903s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test/include/../../../ui_test/include/mainwindow.h:35:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.903s]    35 |     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr [01;31m[Kpublisher_[m[K;
+[1.903s]       |                                                             [01;31m[K^~~~~~~~~~[m[K
+[1.903s]       |                                                             [32m[Krmw_publisher_t[m[K
+[1.904s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:35:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.904s]    35 |     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr [01;31m[Kpublisher_[m[K;
+[1.904s]       |                                                             [01;31m[K^~~~~~~~~~[m[K
+[1.904s]       |                                                             [32m[Krmw_publisher_t[m[K
+[2.413s] gmake[2]: *** [CMakeFiles/ui_test.dir/build.make:112: CMakeFiles/ui_test.dir/include/moc_mainwindow.cpp.o] Error 1
+[2.458s] gmake[2]: *** [CMakeFiles/ui_test.dir/build.make:84: CMakeFiles/ui_test.dir/src/main.cpp.o] Error 1
+[2.458s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ui_test.dir/all] Error 2
+[2.458s] gmake: *** [Makefile:146: all] Error 2
+[2.461s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test -- -j20 -l20

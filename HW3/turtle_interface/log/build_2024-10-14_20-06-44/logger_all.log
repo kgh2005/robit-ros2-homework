@@ -1,0 +1,114 @@
+[0.056s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.056s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x73fcefcffd00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73fcefcff8b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73fcefcff8b0>>)
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.142s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.152s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'turtle_interface'
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.167s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install
+[0.168s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/kgh/GITHUB/robit-ros2-homework/HW3/install
+[0.168s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/kgh/robot_ws/install
+[0.168s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 181 installed packages in /opt/ros/humble
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'turtle_interface' build argument 'cmake_args' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'turtle_interface' build argument 'cmake_target' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'turtle_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'turtle_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'turtle_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'turtle_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'turtle_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'turtle_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'turtle_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.198s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface', 'merge_install': False, 'path': '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface', 'symlink_install': False, 'test_result_base': None}
+[0.199s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.200s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.200s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface' with build type 'ament_cmake'
+[0.201s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface'
+[0.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.204s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.204s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface -- -j20 -l20
+[2.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface -- -j20 -l20
+[2.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface
+[2.406s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_interface)
+[2.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface
+[2.408s] Level 1:colcon.colcon_core.environment:checking '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface' for CMake module files
+[2.409s] Level 1:colcon.colcon_core.environment:checking '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface' for CMake config files
+[2.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interface', 'cmake_prefix_path')
+[2.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/hook/cmake_prefix_path.ps1'
+[2.410s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/hook/cmake_prefix_path.dsv'
+[2.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/hook/cmake_prefix_path.sh'
+[2.411s] Level 1:colcon.colcon_core.environment:checking '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/lib'
+[2.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interface', 'ld_library_path_lib')
+[2.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/hook/ld_library_path_lib.ps1'
+[2.412s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/hook/ld_library_path_lib.dsv'
+[2.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/hook/ld_library_path_lib.sh'
+[2.413s] Level 1:colcon.colcon_core.environment:checking '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/bin'
+[2.413s] Level 1:colcon.colcon_core.environment:checking '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/lib/pkgconfig/turtle_interface.pc'
+[2.413s] Level 1:colcon.colcon_core.environment:checking '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/lib/python3.10/site-packages'
+[2.414s] Level 1:colcon.colcon_core.environment:checking '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/bin'
+[2.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/package.ps1'
+[2.415s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/package.dsv'
+[2.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/package.sh'
+[2.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/package.bash'
+[2.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/package.zsh'
+[2.417s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/colcon-core/packages/turtle_interface)
+[2.471s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_interface)
+[2.471s] Level 1:colcon.colcon_core.environment:checking '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface' for CMake module files
+[2.471s] Level 1:colcon.colcon_core.environment:checking '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface' for CMake config files
+[2.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interface', 'cmake_prefix_path')
+[2.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/hook/cmake_prefix_path.ps1'
+[2.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/hook/cmake_prefix_path.dsv'
+[2.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/hook/cmake_prefix_path.sh'
+[2.473s] Level 1:colcon.colcon_core.environment:checking '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/lib'
+[2.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interface', 'ld_library_path_lib')
+[2.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/hook/ld_library_path_lib.ps1'
+[2.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/hook/ld_library_path_lib.dsv'
+[2.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/hook/ld_library_path_lib.sh'
+[2.473s] Level 1:colcon.colcon_core.environment:checking '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/bin'
+[2.473s] Level 1:colcon.colcon_core.environment:checking '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/lib/pkgconfig/turtle_interface.pc'
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/lib/python3.10/site-packages'
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/bin'
+[2.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/package.ps1'
+[2.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/package.dsv'
+[2.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/package.sh'
+[2.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/package.bash'
+[2.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/package.zsh'
+[2.475s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/colcon-core/packages/turtle_interface)
+[2.476s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.476s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.476s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.476s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.479s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.479s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.479s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.493s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.493s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/local_setup.ps1'
+[2.494s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/_local_setup_util_ps1.py'
+[2.495s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/setup.ps1'
+[2.496s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/local_setup.sh'
+[2.496s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/_local_setup_util_sh.py'
+[2.496s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/setup.sh'
+[2.497s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/local_setup.bash'
+[2.498s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/setup.bash'
+[2.499s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/local_setup.zsh'
+[2.499s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/setup.zsh'

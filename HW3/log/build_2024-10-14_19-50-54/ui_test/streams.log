@@ -1,0 +1,70 @@
+[0.009s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test -- -j20 -l20
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target ui_test[0m
+[0.075s] [ 16%] [32mBuilding CXX object CMakeFiles/ui_test.dir/src/main.cpp.o[0m
+[0.077s] [ 33%] [32mBuilding CXX object CMakeFiles/ui_test.dir/include/moc_mainwindow.cpp.o[0m
+[0.081s] [ 50%] [32mBuilding CXX object CMakeFiles/ui_test.dir/src/mainwindow.cpp.o[0m
+[2.059s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/main.cpp:1[m[K:
+[2.059s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:30:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_msgs_pkg[m[K’ was not declared in this scope
+[2.059s]    30 |     rclcpp::Publisher<[01;31m[Kcustom_msgs_pkg[m[K::msg::Num>::SharedPtr publisher_;  // 수정된 부분
+[2.059s]       |                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.060s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:30:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.060s]    30 |     rclcpp::Publisher<custom_msgs_pkg::msg::Num[01;31m[K>[m[K::SharedPtr publisher_;  // 수정된 부분
+[2.060s]       |                                                [01;31m[K^[m[K
+[2.060s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:30:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.060s]    30 |     rclcpp::Publisher<custom_msgs_pkg::msg::Num>::[01;31m[KSharedPtr[m[K publisher_;  // 수정된 부분
+[2.060s]       |                                                   [01;31m[K^~~~~~~~~[m[K
+[2.060s]       |                                                            [32m[K;[m[K
+[2.061s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:1[m[K:
+[2.062s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:30:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_msgs_pkg[m[K’ was not declared in this scope
+[2.062s]    30 |     rclcpp::Publisher<[01;31m[Kcustom_msgs_pkg[m[K::msg::Num>::SharedPtr publisher_;  // 수정된 부분
+[2.062s]       |                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.062s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:30:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.062s]    30 |     rclcpp::Publisher<custom_msgs_pkg::msg::Num[01;31m[K>[m[K::SharedPtr publisher_;  // 수정된 부분
+[2.062s]       |                                                [01;31m[K^[m[K
+[2.062s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:30:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.062s]    30 |     rclcpp::Publisher<custom_msgs_pkg::msg::Num>::[01;31m[KSharedPtr[m[K publisher_;  // 수정된 부분
+[2.062s]       |                                                   [01;31m[K^~~~~~~~~[m[K
+[2.062s]       |                                                            [32m[K;[m[K
+[2.062s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:30:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.062s]    30 |     rclcpp::Publisher<custom_msgs_pkg::msg::Num>::SharedPtr [01;31m[Kpublisher_[m[K;  // 수정된 부분
+[2.062s]       |                                                             [01;31m[K^~~~~~~~~~[m[K
+[2.062s]       |                                                             [32m[Krmw_publisher_t[m[K
+[2.064s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:30:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.064s]    30 |     rclcpp::Publisher<custom_msgs_pkg::msg::Num>::SharedPtr [01;31m[Kpublisher_[m[K;  // 수정된 부분
+[2.064s]       |                                                             [01;31m[K^~~~~~~~~~[m[K
+[2.064s]       |                                                             [32m[Krmw_publisher_t[m[K
+[2.099s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test/include/moc_mainwindow.cpp:10[m[K:
+[2.099s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test/include/../../../ui_test/include/mainwindow.h:30:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_msgs_pkg[m[K’ was not declared in this scope
+[2.099s]    30 |     rclcpp::Publisher<[01;31m[Kcustom_msgs_pkg[m[K::msg::Num>::SharedPtr publisher_;  // 수정된 부분
+[2.099s]       |                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.099s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test/include/../../../ui_test/include/mainwindow.h:30:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.099s]    30 |     rclcpp::Publisher<custom_msgs_pkg::msg::Num[01;31m[K>[m[K::SharedPtr publisher_;  // 수정된 부분
+[2.099s]       |                                                [01;31m[K^[m[K
+[2.099s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test/include/../../../ui_test/include/mainwindow.h:30:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.099s]    30 |     rclcpp::Publisher<custom_msgs_pkg::msg::Num>::[01;31m[KSharedPtr[m[K publisher_;  // 수정된 부분
+[2.099s]       |                                                   [01;31m[K^~~~~~~~~[m[K
+[2.099s]       |                                                            [32m[K;[m[K
+[2.101s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test/include/../../../ui_test/include/mainwindow.h:30:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.101s]    30 |     rclcpp::Publisher<custom_msgs_pkg::msg::Num>::SharedPtr [01;31m[Kpublisher_[m[K;  // 수정된 부분
+[2.101s]       |                                                             [01;31m[K^~~~~~~~~~[m[K
+[2.101s]       |                                                             [32m[Krmw_publisher_t[m[K
+[2.106s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(QWidget*)[m[K’:
+[2.106s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:9:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.106s]     9 |     [01;31m[Kpublisher_[m[K = node_->create_publisher<turtle_interface::msg::Num>("direction_topic", 10);  // 수정된 부분
+[2.106s]       |     [01;31m[K^~~~~~~~~~[m[K
+[2.106s]       |     [32m[Krmw_publisher_t[m[K
+[2.109s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::publishDirection(double, double)[m[K’:
+[2.109s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct turtle_interface::msg::Num_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kmessage[m[K’
+[2.109s]    20 |     msg.[01;31m[Kmessage[m[K = "Linear: " + std::to_string(linear) + ", Angular: " + std::to_string(angular);
+[2.109s]       |         [01;31m[K^~~~~~~[m[K
+[2.117s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:21:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.117s]    21 |     [01;31m[Kpublisher_[m[K->publish(msg);
+[2.117s]       |     [01;31m[K^~~~~~~~~~[m[K
+[2.117s]       |     [32m[Krmw_publisher_t[m[K
+[2.655s] gmake[2]: *** [CMakeFiles/ui_test.dir/build.make:112: CMakeFiles/ui_test.dir/include/moc_mainwindow.cpp.o] Error 1
+[2.655s] gmake[2]: *** Waiting for unfinished jobs....
+[2.675s] gmake[2]: *** [CMakeFiles/ui_test.dir/build.make:84: CMakeFiles/ui_test.dir/src/main.cpp.o] Error 1
+[2.834s] gmake[2]: *** [CMakeFiles/ui_test.dir/build.make:98: CMakeFiles/ui_test.dir/src/mainwindow.cpp.o] Error 1
+[2.834s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ui_test.dir/all] Error 2
+[2.835s] gmake: *** [Makefile:146: all] Error 2
+[2.838s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test -- -j20 -l20

@@ -1,0 +1,4 @@
+[ 16%] [34m[1mGenerating include/moc_mainwindow.cpp[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/ui_test.dir/src/main.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ui_test.dir/src/mainwindow.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/ui_test.dir/include/moc_mainwindow.cpp.o[0m

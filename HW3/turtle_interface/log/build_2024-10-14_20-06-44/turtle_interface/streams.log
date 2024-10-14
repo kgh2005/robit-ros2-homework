@@ -1,0 +1,229 @@
+[0.012s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface -- -j20 -l20
+[0.037s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.120s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.140s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.141s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.145s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.150s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.157s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.175s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.176s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.233s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.261s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.422s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.614s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.694s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.709s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.724s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.724s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.724s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.732s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.751s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.751s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface/rosidl_generator_c>;$<BUILD_INTERFACE:/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface/rosidl_typesupport_introspection_cpp>;/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface/rosidl_generator_c;/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface/rosidl_generator_py
+[0.751s] -- Configured cppcheck exclude dirs and/or files: 
+[0.753s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.756s] -- Added test 'lint_cmake' to check CMake code style
+[0.758s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.770s] -- Added test 'uncrustify' to check C / C++ code style
+[0.770s] -- Configured uncrustify additional arguments: 
+[0.772s] -- Added test 'xmllint' to check XML markup files
+[0.773s] -- Configuring done
+[0.789s] -- Generating done
+[0.792s] -- Build files have been written to: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface
+[0.813s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.822s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.831s] [  6%] Built target ament_cmake_python_copy_turtle_interface
+[0.985s] running egg_info
+[0.986s] writing turtle_interface.egg-info/PKG-INFO
+[0.986s] writing dependency_links to turtle_interface.egg-info/dependency_links.txt
+[0.986s] writing top-level names to turtle_interface.egg-info/top_level.txt
+[0.988s] reading manifest file 'turtle_interface.egg-info/SOURCES.txt'
+[0.988s] writing manifest file 'turtle_interface.egg-info/SOURCES.txt'
+[1.001s] [  6%] Built target turtle_interface__cpp
+[1.005s] [35m[1mConsolidate compiler generated dependencies of target turtle_interface__rosidl_generator_c[0m
+[1.010s] [  9%] Built target ament_cmake_python_build_turtle_interface_egg
+[1.011s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.011s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.013s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.015s] [ 19%] [32mBuilding C object CMakeFiles/turtle_interface__rosidl_generator_c.dir/rosidl_generator_c/turtle_interface/msg/detail/num__functions.c.o[0m
+[1.055s] [ 22%] [32m[1mLinking C shared library libturtle_interface__rosidl_generator_c.so[0m
+[1.089s] [ 22%] Built target turtle_interface__rosidl_generator_c
+[1.101s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.101s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.102s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.191s] [35m[1mConsolidate compiler generated dependencies of target turtle_interface__rosidl_typesupport_cpp[0m
+[1.205s] [ 35%] [32mBuilding CXX object CMakeFiles/turtle_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interface/msg/num__type_support.cpp.o[0m
+[1.210s] [35m[1mConsolidate compiler generated dependencies of target turtle_interface__rosidl_typesupport_introspection_cpp[0m
+[1.222s] [ 38%] [32mBuilding CXX object CMakeFiles/turtle_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interface/msg/detail/num__type_support.cpp.o[0m
+[1.225s] [35m[1mConsolidate compiler generated dependencies of target turtle_interface__rosidl_typesupport_fastrtps_cpp[0m
+[1.242s] [ 41%] [32mBuilding CXX object CMakeFiles/turtle_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interface/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[1.308s] [35m[1mConsolidate compiler generated dependencies of target turtle_interface__rosidl_typesupport_c[0m
+[1.313s] [35m[1mConsolidate compiler generated dependencies of target turtle_interface__rosidl_typesupport_introspection_c[0m
+[1.316s] [35m[1mConsolidate compiler generated dependencies of target turtle_interface__rosidl_typesupport_fastrtps_c[0m
+[1.321s] [ 45%] [32mBuilding CXX object CMakeFiles/turtle_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interface/msg/num__type_support.cpp.o[0m
+[1.327s] [ 48%] [32mBuilding C object CMakeFiles/turtle_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interface/msg/detail/num__type_support.c.o[0m
+[1.330s] [ 51%] [32mBuilding CXX object CMakeFiles/turtle_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interface/msg/detail/num__type_support_c.cpp.o[0m
+[1.355s] [ 54%] [32m[1mLinking CXX shared library libturtle_interface__rosidl_typesupport_c.so[0m
+[1.363s] [ 58%] [32m[1mLinking C shared library libturtle_interface__rosidl_typesupport_introspection_c.so[0m
+[1.399s] [ 58%] Built target turtle_interface__rosidl_typesupport_c
+[1.401s] [ 58%] Built target turtle_interface__rosidl_typesupport_introspection_c
+[1.449s] [ 61%] [32m[1mLinking CXX shared library libturtle_interface__rosidl_typesupport_cpp.so[0m
+[1.491s] [ 61%] Built target turtle_interface__rosidl_typesupport_cpp
+[1.520s] [ 64%] [32m[1mLinking CXX shared library libturtle_interface__rosidl_typesupport_introspection_cpp.so[0m
+[1.544s] [ 67%] [32m[1mLinking CXX shared library libturtle_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.555s] [ 67%] Built target turtle_interface__rosidl_typesupport_introspection_cpp
+[1.581s] [ 70%] [32m[1mLinking CXX shared library libturtle_interface__rosidl_typesupport_fastrtps_c.so[0m
+[1.605s] [ 70%] Built target turtle_interface__rosidl_typesupport_fastrtps_cpp
+[1.634s] [ 70%] Built target turtle_interface__rosidl_typesupport_fastrtps_c
+[1.648s] [ 70%] Built target turtle_interface
+[1.661s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.825s] [ 74%] Built target turtle_interface__py
+[1.833s] [35m[1mConsolidate compiler generated dependencies of target turtle_interface__rosidl_generator_py[0m
+[1.844s] [ 77%] [32mBuilding C object CMakeFiles/turtle_interface__rosidl_generator_py.dir/rosidl_generator_py/turtle_interface/msg/_num_s.c.o[0m
+[1.909s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interface/libturtle_interface__rosidl_generator_py.so[0m
+[1.946s] [ 80%] Built target turtle_interface__rosidl_generator_py
+[1.957s] [35m[1mConsolidate compiler generated dependencies of target turtle_interface__rosidl_typesupport_introspection_c__pyext[0m
+[1.957s] [35m[1mConsolidate compiler generated dependencies of target turtle_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.958s] [35m[1mConsolidate compiler generated dependencies of target turtle_interface__rosidl_typesupport_c__pyext[0m
+[1.971s] [ 83%] [32mBuilding C object CMakeFiles/turtle_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtle_interface/_turtle_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[1.976s] [ 87%] [32mBuilding C object CMakeFiles/turtle_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtle_interface/_turtle_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.979s] [ 90%] [32mBuilding C object CMakeFiles/turtle_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtle_interface/_turtle_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.059s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interface/turtle_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.061s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interface/turtle_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.061s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interface/turtle_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.090s] [100%] Built target turtle_interface__rosidl_typesupport_c__pyext
+[2.090s] [100%] Built target turtle_interface__rosidl_typesupport_introspection_c__pyext
+[2.092s] [100%] Built target turtle_interface__rosidl_typesupport_fastrtps_c__pyext
+[2.101s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface -- -j20 -l20
+[2.162s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface
+[2.169s] -- Install configuration: ""
+[2.169s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/ament_index/resource_index/rosidl_interfaces/turtle_interface
+[2.169s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface
+[2.169s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg
+[2.169s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/detail
+[2.169s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/detail/num__type_support.h
+[2.169s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/detail/num__functions.c
+[2.169s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/detail/num__struct.h
+[2.169s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/detail/num__functions.h
+[2.169s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/rosidl_generator_c__visibility_control.h
+[2.169s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/num.h
+[2.169s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/environment/library_path.sh
+[2.169s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/environment/library_path.dsv
+[2.169s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/lib/libturtle_interface__rosidl_generator_c.so
+[2.170s] -- Set runtime path of "/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/lib/libturtle_interface__rosidl_generator_c.so" to ""
+[2.170s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface
+[2.170s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg
+[2.170s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/detail
+[2.170s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[2.170s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.170s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/lib/libturtle_interface__rosidl_typesupport_fastrtps_c.so
+[2.170s] -- Set runtime path of "/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/lib/libturtle_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[2.170s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface
+[2.170s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg
+[2.170s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/detail
+[2.170s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/detail/num__struct.hpp
+[2.170s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/detail/num__builder.hpp
+[2.170s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/detail/num__traits.hpp
+[2.171s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/num.hpp
+[2.171s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface
+[2.171s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg
+[2.171s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/detail
+[2.171s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/detail/dds_fastrtps
+[2.171s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[2.171s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.171s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/lib/libturtle_interface__rosidl_typesupport_fastrtps_cpp.so
+[2.171s] -- Set runtime path of "/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/lib/libturtle_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.171s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface
+[2.171s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg
+[2.171s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/detail
+[2.171s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/detail/num__type_support.c
+[2.171s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/detail/num__rosidl_typesupport_introspection_c.h
+[2.172s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.172s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/lib/libturtle_interface__rosidl_typesupport_introspection_c.so
+[2.172s] -- Set runtime path of "/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/lib/libturtle_interface__rosidl_typesupport_introspection_c.so" to ""
+[2.172s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/lib/libturtle_interface__rosidl_typesupport_c.so
+[2.172s] -- Set runtime path of "/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/lib/libturtle_interface__rosidl_typesupport_c.so" to ""
+[2.172s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface
+[2.172s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg
+[2.172s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/detail
+[2.172s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/detail/num__type_support.cpp
+[2.172s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/include/turtle_interface/turtle_interface/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[2.173s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/lib/libturtle_interface__rosidl_typesupport_introspection_cpp.so
+[2.173s] -- Set runtime path of "/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/lib/libturtle_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[2.173s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/lib/libturtle_interface__rosidl_typesupport_cpp.so
+[2.173s] -- Set runtime path of "/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/lib/libturtle_interface__rosidl_typesupport_cpp.so" to ""
+[2.173s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/environment/pythonpath.sh
+[2.173s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/environment/pythonpath.dsv
+[2.173s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface-0.0.0-py3.10.egg-info
+[2.173s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.173s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[2.174s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.174s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface-0.0.0-py3.10.egg-info/top_level.txt
+[2.174s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface
+[2.174s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface/turtle_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.174s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface/__init__.py
+[2.174s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface/turtle_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.174s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface/libturtle_interface__rosidl_generator_py.so
+[2.174s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface/turtle_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.174s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface/_turtle_interface_s.ep.rosidl_typesupport_c.c
+[2.174s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface/_turtle_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.174s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface/_turtle_interface_s.ep.rosidl_typesupport_introspection_c.c
+[2.175s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface/msg
+[2.175s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface/msg/__init__.py
+[2.175s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface/msg/_num_s.c
+[2.175s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface/msg/_num.py
+[2.197s] Listing '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface'...
+[2.197s] Compiling '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface/__init__.py'...
+[2.197s] Listing '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface/msg'...
+[2.197s] Compiling '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface/msg/__init__.py'...
+[2.197s] Compiling '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface/msg/_num.py'...
+[2.200s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface/turtle_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.200s] -- Set runtime path of "/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface/turtle_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.200s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface/turtle_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.200s] -- Set runtime path of "/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface/turtle_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.201s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface/turtle_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.201s] -- Set runtime path of "/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/local/lib/python3.10/dist-packages/turtle_interface/turtle_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.201s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/lib/libturtle_interface__rosidl_generator_py.so
+[2.201s] -- Set runtime path of "/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/lib/libturtle_interface__rosidl_generator_py.so" to ""
+[2.201s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/msg/Num.idl
+[2.201s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/msg/Num.msg
+[2.201s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/ament_index/resource_index/package_run_dependencies/turtle_interface
+[2.202s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/ament_index/resource_index/parent_prefix_path/turtle_interface
+[2.202s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/environment/ament_prefix_path.sh
+[2.202s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/environment/ament_prefix_path.dsv
+[2.202s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/environment/path.sh
+[2.202s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/environment/path.dsv
+[2.202s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/local_setup.bash
+[2.202s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/local_setup.sh
+[2.202s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/local_setup.zsh
+[2.202s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/local_setup.dsv
+[2.202s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/package.dsv
+[2.202s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/ament_index/resource_index/packages/turtle_interface
+[2.202s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/export_turtle_interface__rosidl_generator_cExport.cmake
+[2.202s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/export_turtle_interface__rosidl_generator_cExport-noconfig.cmake
+[2.202s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/export_turtle_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[2.202s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/export_turtle_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.202s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/export_turtle_interface__rosidl_generator_cppExport.cmake
+[2.203s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/export_turtle_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.203s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/export_turtle_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.203s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/turtle_interface__rosidl_typesupport_introspection_cExport.cmake
+[2.203s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/turtle_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.203s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/turtle_interface__rosidl_typesupport_cExport.cmake
+[2.203s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/turtle_interface__rosidl_typesupport_cExport-noconfig.cmake
+[2.203s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/turtle_interface__rosidl_typesupport_introspection_cppExport.cmake
+[2.203s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/turtle_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.203s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/turtle_interface__rosidl_typesupport_cppExport.cmake
+[2.203s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/turtle_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[2.203s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/export_turtle_interface__rosidl_generator_pyExport.cmake
+[2.203s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/export_turtle_interface__rosidl_generator_pyExport-noconfig.cmake
+[2.203s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/rosidl_cmake-extras.cmake
+[2.203s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.203s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[2.204s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/ament_cmake_export_targets-extras.cmake
+[2.204s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.204s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.204s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.204s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/turtle_interfaceConfig.cmake
+[2.204s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/cmake/turtle_interfaceConfig-version.cmake
+[2.204s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/install/turtle_interface/share/turtle_interface/package.xml
+[2.205s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kgh/GITHUB/robit-ros2-homework/HW3/turtle_interface/build/turtle_interface

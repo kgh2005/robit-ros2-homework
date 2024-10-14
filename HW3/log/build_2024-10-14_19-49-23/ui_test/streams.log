@@ -1,0 +1,28 @@
+[0.009s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test -- -j20 -l20
+[0.040s] [ 16%] [34m[1mGenerating include/moc_mainwindow.cpp[0m
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target ui_test[0m
+[0.073s] [ 33%] [32mBuilding CXX object CMakeFiles/ui_test.dir/src/main.cpp.o[0m
+[0.074s] [ 50%] [32mBuilding CXX object CMakeFiles/ui_test.dir/src/mainwindow.cpp.o[0m
+[0.077s] [ 66%] [32mBuilding CXX object CMakeFiles/ui_test.dir/include/moc_mainwindow.cpp.o[0m
+[0.290s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:1[m[K:
+[0.290s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:6:10:[m[K [01;31m[Kfatal error: [m[Kcustom_msgs_pkg/msg/num.hpp: No such file or directory
+[0.290s]     6 | #include [01;31m[K"custom_msgs_pkg/msg/num.hpp"[m[K  // 수정된 부분
+[0.291s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.291s] compilation terminated.
+[0.295s] gmake[2]: *** [CMakeFiles/ui_test.dir/build.make:98: CMakeFiles/ui_test.dir/src/mainwindow.cpp.o] Error 1
+[0.295s] gmake[2]: *** Waiting for unfinished jobs....
+[0.295s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test/include/moc_mainwindow.cpp:10[m[K:
+[0.295s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test/include/../../../ui_test/include/mainwindow.h:6:10:[m[K [01;31m[Kfatal error: [m[Kcustom_msgs_pkg/msg/num.hpp: No such file or directory
+[0.295s]     6 | #include [01;31m[K"custom_msgs_pkg/msg/num.hpp"[m[K  // 수정된 부분
+[0.295s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.295s] compilation terminated.
+[0.295s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/main.cpp:1[m[K:
+[0.295s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:6:10:[m[K [01;31m[Kfatal error: [m[Kcustom_msgs_pkg/msg/num.hpp: No such file or directory
+[0.296s]     6 | #include [01;31m[K"custom_msgs_pkg/msg/num.hpp"[m[K  // 수정된 부분
+[0.296s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.296s] compilation terminated.
+[0.296s] gmake[2]: *** [CMakeFiles/ui_test.dir/build.make:112: CMakeFiles/ui_test.dir/include/moc_mainwindow.cpp.o] Error 1
+[0.297s] gmake[2]: *** [CMakeFiles/ui_test.dir/build.make:84: CMakeFiles/ui_test.dir/src/main.cpp.o] Error 1
+[0.297s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ui_test.dir/all] Error 2
+[0.297s] gmake: *** [Makefile:146: all] Error 2
+[0.300s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/build/ui_test -- -j20 -l20

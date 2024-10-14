@@ -1,0 +1,24 @@
+[0.011s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/build/turtle_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/build/turtle_interface -- -j20 -l20
+[0.055s] [  3%] Built target turtle_interface__cpp
+[0.057s] [ 12%] Built target turtle_interface__rosidl_generator_c
+[0.066s] [ 12%] Built target ament_cmake_python_copy_turtle_interface
+[0.079s] [ 22%] Built target turtle_interface__rosidl_typesupport_c
+[0.080s] [ 32%] Built target turtle_interface__rosidl_typesupport_fastrtps_c
+[0.081s] [ 41%] Built target turtle_interface__rosidl_typesupport_cpp
+[0.081s] [ 51%] Built target turtle_interface__rosidl_typesupport_introspection_c
+[0.082s] [ 61%] Built target turtle_interface__rosidl_typesupport_introspection_cpp
+[0.085s] [ 70%] Built target turtle_interface__rosidl_typesupport_fastrtps_cpp
+[0.106s] [ 70%] Built target turtle_interface
+[0.137s] [ 74%] Built target turtle_interface__py
+[0.164s] [ 80%] Built target turtle_interface__rosidl_generator_py
+[0.192s] [ 93%] Built target turtle_interface__rosidl_typesupport_introspection_c__pyext
+[0.193s] [ 93%] Built target turtle_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.193s] [100%] Built target turtle_interface__rosidl_typesupport_c__pyext
+[0.258s] running egg_info
+[0.258s] writing turtle_interface.egg-info/PKG-INFO
+[0.258s] writing dependency_links to turtle_interface.egg-info/dependency_links.txt
+[0.258s] writing top-level names to turtle_interface.egg-info/top_level.txt
+[0.260s] reading manifest file 'turtle_interface.egg-info/SOURCES.txt'
+[0.260s] writing manifest file 'turtle_interface.egg-info/SOURCES.txt'
+[0.283s] [100%] Built target ament_cmake_python_build_turtle_interface_egg
+[0.297s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/build/turtle_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/build/turtle_interface -- -j20 -l20

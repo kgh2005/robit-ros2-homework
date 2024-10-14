@@ -1,0 +1,51 @@
+[0.007s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/hw3_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test -DCMAKE_INSTALL_PREFIX=/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/install/hw3_interface
+[0.053s] -- The C compiler identification is GNU 11.4.0
+[0.091s] -- The CXX compiler identification is GNU 11.4.0
+[0.096s] -- Detecting C compiler ABI info
+[0.164s] -- Detecting C compiler ABI info - done
+[0.173s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.173s] -- Detecting C compile features
+[0.173s] -- Detecting C compile features - done
+[0.176s] -- Detecting CXX compiler ABI info
+[0.235s] -- Detecting CXX compiler ABI info - done
+[0.241s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.241s] -- Detecting CXX compile features
+[0.241s] -- Detecting CXX compile features - done
+[0.243s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.343s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.392s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.414s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.417s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.421s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.428s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.438s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.461s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.462s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.527s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.551s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.573s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.579s] -- Looking for pthread.h
+[0.634s] -- Looking for pthread.h - found
+[0.635s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.707s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.709s] -- Found Threads: TRUE  
+[0.747s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.747s]   By not providing "Findhw3_interface.cmake" in CMAKE_MODULE_PATH this
+[0.747s]   project has asked CMake to find a package configuration file provided by
+[0.747s]   "hw3_interface", but CMake did not find one.
+[0.747s] 
+[0.748s]   Could not find a package configuration file provided by "hw3_interface"
+[0.748s]   with any of the following names:
+[0.748s] 
+[0.748s]     hw3_interfaceConfig.cmake
+[0.748s]     hw3_interface-config.cmake
+[0.748s] 
+[0.748s]   Add the installation prefix of "hw3_interface" to CMAKE_PREFIX_PATH or set
+[0.748s]   "hw3_interface_DIR" to a directory containing one of the above files.  If
+[0.748s]   "hw3_interface" provides a separate development package or SDK, be sure it
+[0.748s]   has been installed.
+[0.748s] 
+[0.748s] [0m
+[0.748s] -- Configuring incomplete, errors occurred!
+[0.748s] See also "/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/hw3_interface/CMakeFiles/CMakeOutput.log".
+[0.752s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/hw3_interface' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test -DCMAKE_INSTALL_PREFIX=/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/install/hw3_interface
