@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/ui_test.dir/include/moc_mainwindow.cpp.o: in function `MainWindow::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)':
+moc_mainwindow.cpp:(.text+0x5a): undefined reference to `MainWindow::on_pushButton_clicked()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/ui_test.dir/build.make:224: ui_test] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ui_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

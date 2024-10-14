@@ -1,0 +1,87 @@
+[0.006s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test': /usr/bin/cmake /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test -DCMAKE_INSTALL_PREFIX=/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/install/ui_test
+[0.049s] -- The C compiler identification is GNU 11.4.0
+[0.085s] -- The CXX compiler identification is GNU 11.4.0
+[0.091s] -- Detecting C compiler ABI info
+[0.142s] -- Detecting C compiler ABI info - done
+[0.147s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.147s] -- Detecting C compile features
+[0.147s] -- Detecting C compile features - done
+[0.149s] -- Detecting CXX compiler ABI info
+[0.201s] -- Detecting CXX compiler ABI info - done
+[0.208s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.208s] -- Detecting CXX compile features
+[0.208s] -- Detecting CXX compile features - done
+[0.209s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.306s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.358s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.388s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.390s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.394s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.401s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.410s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.433s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.435s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.502s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.525s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.550s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.555s] -- Looking for pthread.h
+[0.629s] -- Looking for pthread.h - found
+[0.629s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.693s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.693s] -- Found Threads: TRUE  
+[0.727s] -- Found Qt5: 5.15.3
+[0.729s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.772s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.774s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.774s] -- Configured cppcheck include dirs: /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include;/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test
+[0.774s] -- Configured cppcheck exclude dirs and/or files: 
+[0.775s] -- Added test 'lint_cmake' to check CMake code style
+[0.777s] -- Added test 'uncrustify' to check C / C++ code style
+[0.777s] -- Configured uncrustify additional arguments: 
+[0.778s] -- Added test 'xmllint' to check XML markup files
+[0.778s] -- Configuring done
+[0.783s] -- Generating done
+[0.784s] -- Build files have been written to: /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test
+[0.790s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test' returned '0': /usr/bin/cmake /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test -DCMAKE_INSTALL_PREFIX=/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/install/ui_test
+[0.791s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test': /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test -- -j20 -l20
+[0.819s] [ 12%] [34m[1mGenerating ui_mainwindow.h[0m
+[0.819s] [ 25%] [34m[1mGenerating include/moc_mainwindow.cpp[0m
+[0.819s] [ 37%] [34m[1mGenerating qrc_resources.cpp[0m
+[0.834s] [ 50%] [32mBuilding CXX object CMakeFiles/ui_test.dir/src/main.cpp.o[0m
+[0.835s] [ 62%] [32mBuilding CXX object CMakeFiles/ui_test.dir/include/moc_mainwindow.cpp.o[0m
+[0.837s] [ 75%] [32mBuilding CXX object CMakeFiles/ui_test.dir/src/mainwindow.cpp.o[0m
+[0.837s] [ 87%] [32mBuilding CXX object CMakeFiles/ui_test.dir/qrc_resources.cpp.o[0m
+[2.467s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(QWidget*)[m[K’:
+[2.467s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:18:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.467s]    18 |     [01;31m[Kstring_publisher_[m[K = node_->create_publisher<std_msgs::msg::String>("turtle_direction", 10);
+[2.467s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.467s]       |     [32m[Krmw_publisher_t[m[K
+[2.468s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:[m[K At global scope:
+[2.468s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:27:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid MainWindow::publishDirection(const string&)[m[K’
+[2.468s]    27 | void [01;31m[KMainWindow[m[K::publishDirection(const std::string &direction)
+[2.468s]       |      [01;31m[K^~~~~~~~~~[m[K
+[2.468s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:27:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid MainWindow::publishDirection(const string&)[m[K’
+[2.468s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:1[m[K:
+[2.469s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:17:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass MainWindow[m[K’ defined here
+[2.469s]    17 | class [01;36m[KMainWindow[m[K : public QMainWindow {
+[2.469s]       |       [01;36m[K^~~~~~~~~~[m[K
+[2.476s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::on_up_button_clicked()[m[K’:
+[2.476s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:39:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishDirection[m[K’ was not declared in this scope
+[2.476s]    39 |     [01;31m[KpublishDirection[m[K("up");  // "up" 방향 메시지 퍼블리시
+[2.476s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.483s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::on_left_button_clicked()[m[K’:
+[2.483s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishDirection[m[K’ was not declared in this scope
+[2.483s]    45 |     [01;31m[KpublishDirection[m[K("left");  // "left" 방향 메시지 퍼블리시
+[2.483s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.491s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::on_down_button_clicked()[m[K’:
+[2.491s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:51:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishDirection[m[K’ was not declared in this scope
+[2.491s]    51 |     [01;31m[KpublishDirection[m[K("down");  // "down" 방향 메시지 퍼블리시
+[2.491s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.498s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::on_right_button_clicked()[m[K’:
+[2.498s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:57:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishDirection[m[K’ was not declared in this scope
+[2.498s]    57 |     [01;31m[KpublishDirection[m[K("right");  // "right" 방향 메시지 퍼블리시
+[2.498s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.131s] gmake[2]: *** [CMakeFiles/ui_test.dir/build.make:104: CMakeFiles/ui_test.dir/src/mainwindow.cpp.o] Error 1
+[3.131s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ui_test.dir/all] Error 2
+[3.131s] gmake: *** [Makefile:146: all] Error 2
+[3.134s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test' returned '2': /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test -- -j20 -l20

@@ -1,0 +1,5 @@
+-I/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include
+-I/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test
+-o
+/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test/include/moc_mainwindow.cpp
+/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h

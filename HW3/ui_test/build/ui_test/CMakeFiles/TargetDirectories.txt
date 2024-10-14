@@ -1,0 +1,10 @@
+/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test/CMakeFiles/uninstall.dir
+/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test/CMakeFiles/ui_test_uninstall.dir
+/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test/CMakeFiles/ui_test.dir
+/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test/CMakeFiles/test.dir
+/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test/CMakeFiles/edit_cache.dir
+/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test/CMakeFiles/rebuild_cache.dir
+/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test/CMakeFiles/list_install_components.dir
+/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test/CMakeFiles/install.dir
+/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test/CMakeFiles/install/local.dir
+/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test/CMakeFiles/install/strip.dir

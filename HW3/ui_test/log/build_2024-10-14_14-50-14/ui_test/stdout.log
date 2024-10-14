@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target ui_test[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/ui_test.dir/src/mainwindow.cpp.o[0m
+[ 25%] [32m[1mLinking CXX executable ui_test[0m

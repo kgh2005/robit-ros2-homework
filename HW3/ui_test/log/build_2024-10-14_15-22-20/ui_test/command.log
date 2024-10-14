@@ -1,0 +1,4 @@
+Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test': /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test -- -j20 -l20
+Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test' returned '0': /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test -- -j20 -l20
+Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test': /usr/bin/cmake --install /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test
+Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test' returned '0': /usr/bin/cmake --install /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test

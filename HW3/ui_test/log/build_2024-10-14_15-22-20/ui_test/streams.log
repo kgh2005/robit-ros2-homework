@@ -1,0 +1,28 @@
+[0.007s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test': /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test -- -j20 -l20
+[0.038s] [ 12%] [34m[1mGenerating ui_mainwindow.h[0m
+[0.061s] [ 25%] [32mBuilding CXX object CMakeFiles/ui_test.dir/src/mainwindow.cpp.o[0m
+[2.756s] [ 37%] [32m[1mLinking CXX executable ui_test[0m
+[3.094s] [100%] Built target ui_test
+[3.102s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test' returned '0': /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test -- -j20 -l20
+[3.134s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test': /usr/bin/cmake --install /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test
+[3.139s] -- Install configuration: ""
+[3.140s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/install/ui_test/lib/ui_test/ui_test
+[3.141s] -- Set runtime path of "/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/install/ui_test/lib/ui_test/ui_test" to ""
+[3.141s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/install/ui_test/include/ui_test
+[3.141s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/install/ui_test/include/ui_test/mainwindow.h
+[3.141s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/install/ui_test/share/ament_index/resource_index/package_run_dependencies/ui_test
+[3.141s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/install/ui_test/share/ament_index/resource_index/parent_prefix_path/ui_test
+[3.141s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/install/ui_test/share/ui_test/environment/ament_prefix_path.sh
+[3.141s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/install/ui_test/share/ui_test/environment/ament_prefix_path.dsv
+[3.141s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/install/ui_test/share/ui_test/environment/path.sh
+[3.141s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/install/ui_test/share/ui_test/environment/path.dsv
+[3.141s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/install/ui_test/share/ui_test/local_setup.bash
+[3.141s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/install/ui_test/share/ui_test/local_setup.sh
+[3.141s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/install/ui_test/share/ui_test/local_setup.zsh
+[3.141s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/install/ui_test/share/ui_test/local_setup.dsv
+[3.141s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/install/ui_test/share/ui_test/package.dsv
+[3.141s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/install/ui_test/share/ament_index/resource_index/packages/ui_test
+[3.141s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/install/ui_test/share/ui_test/cmake/ui_testConfig.cmake
+[3.141s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/install/ui_test/share/ui_test/cmake/ui_testConfig-version.cmake
+[3.141s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/install/ui_test/share/ui_test/package.xml
+[3.142s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test' returned '0': /usr/bin/cmake --install /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test

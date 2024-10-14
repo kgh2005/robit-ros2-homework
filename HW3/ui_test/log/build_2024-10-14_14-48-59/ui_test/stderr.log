@@ -1,0 +1,13 @@
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(QWidget*)[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:18:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   18 |     [01;31m[Kstring_publisher_[m[K = node_->create_publisher<std_msgs::msg::String>("turtle_direction", 10);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::publishDirection(const string&)[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   33 |     [01;31m[Kstring_publisher_[m[K->publish(msg);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+gmake[2]: *** [CMakeFiles/ui_test.dir/build.make:104: CMakeFiles/ui_test.dir/src/mainwindow.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ui_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

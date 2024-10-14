@@ -1,0 +1,28 @@
+[0.007s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test': /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test -- -j20 -l20
+[0.036s] [ 12%] [34m[1mGenerating include/moc_mainwindow.cpp[0m
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target ui_test[0m
+[0.060s] [ 25%] [32mBuilding CXX object CMakeFiles/ui_test.dir/src/main.cpp.o[0m
+[0.063s] [ 37%] [32mBuilding CXX object CMakeFiles/ui_test.dir/src/mainwindow.cpp.o[0m
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/ui_test.dir/include/moc_mainwindow.cpp.o[0m
+[0.150s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test/include/moc_mainwindow.cpp:10[m[K:
+[0.150s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test/include/../../../include/mainwindow.h:7:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/twist.hpp: No such file or directory
+[0.150s]     7 | #include [01;31m[K"geometry_msgs/msg/twist.hpp"[m[K
+[0.150s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.150s] compilation terminated.
+[0.153s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/mainwindow.cpp:1[m[K:
+[0.153s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:7:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/twist.hpp: No such file or directory
+[0.153s]     7 | #include [01;31m[K"geometry_msgs/msg/twist.hpp"[m[K
+[0.154s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.154s] compilation terminated.
+[0.156s] gmake[2]: *** [CMakeFiles/ui_test.dir/build.make:104: CMakeFiles/ui_test.dir/src/mainwindow.cpp.o] Error 1
+[0.156s] gmake[2]: *** Waiting for unfinished jobs....
+[0.156s] gmake[2]: *** [CMakeFiles/ui_test.dir/build.make:118: CMakeFiles/ui_test.dir/include/moc_mainwindow.cpp.o] Error 1
+[0.158s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/src/main.cpp:1[m[K:
+[0.158s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/include/mainwindow.h:7:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/twist.hpp: No such file or directory
+[0.158s]     7 | #include [01;31m[K"geometry_msgs/msg/twist.hpp"[m[K
+[0.158s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.158s] compilation terminated.
+[0.159s] gmake[2]: *** [CMakeFiles/ui_test.dir/build.make:90: CMakeFiles/ui_test.dir/src/main.cpp.o] Error 1
+[0.159s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ui_test.dir/all] Error 2
+[0.160s] gmake: *** [Makefile:146: all] Error 2
+[0.162s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test' returned '2': /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW3/ui_test/build/ui_test -- -j20 -l20
