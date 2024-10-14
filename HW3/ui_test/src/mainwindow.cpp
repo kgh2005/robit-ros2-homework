@@ -46,13 +46,13 @@ void MainWindow::on_left_button_clicked()
     publishDirection(0.0, 1.0);
 }
 
-// "아래" 버튼 클릭 시 호출 - 뒤로 이동
+// 뒤로 이동
 void MainWindow::on_down_button_clicked()
 {
     publishDirection(-1.0, 0.0);
 }
 
-// "오른쪽" 버튼 클릭 시 호출 - 오른쪽 회전
+// 오른쪽 회전
 void MainWindow::on_right_button_clicked()
 {
     publishDirection(0.0, -1.0);
