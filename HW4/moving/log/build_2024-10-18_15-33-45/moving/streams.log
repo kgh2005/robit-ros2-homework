@@ -1,0 +1,42 @@
+[0.008s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20
+[0.027s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.096s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.110s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.111s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.115s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.120s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.127s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.145s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.145s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.201s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.241s] -- Found Qt5: 5.15.3
+[0.242s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.279s] -- Configuring done
+[0.284s] -- Generating done
+[0.284s] -- Build files have been written to: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving
+[0.305s] [35m[1mConsolidate compiler generated dependencies of target moving_node[0m
+[0.325s] [  9%] [32mBuilding CXX object CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o[0m
+[0.325s] [ 18%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/mainwindow.cpp.o[0m
+[0.325s] [ 27%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/main.cpp.o[0m
+[0.469s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/include/moving/moc_mainwindow.cpp:10[m[K:
+[0.469s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/include/moving/../../../../include/moving/mainwindow.hpp:10:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+[0.469s]    10 | #include [01;31m[K<std_msgs/msg/string.hpp>[m[K  // 메시지 타입에 따라 변경
+[0.469s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.469s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:1[m[K:
+[0.469s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:10:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+[0.469s]    10 | #include [01;31m[K<std_msgs/msg/string.hpp>[m[K  // 메시지 타입에 따라 변경
+[0.469s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.470s] compilation terminated.
+[0.470s] compilation terminated.
+[0.470s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/main.cpp:4[m[K:
+[0.470s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:10:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+[0.471s]    10 | #include [01;31m[K<std_msgs/msg/string.hpp>[m[K  // 메시지 타입에 따라 변경
+[0.471s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.471s] compilation terminated.
+[0.480s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:138: CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o] Error 1
+[0.480s] gmake[2]: *** Waiting for unfinished jobs....
+[0.480s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+[0.480s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:96: CMakeFiles/moving_node.dir/src/main.cpp.o] Error 1
+[0.481s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+[0.481s] gmake: *** [Makefile:146: all] Error 2
+[0.483s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20

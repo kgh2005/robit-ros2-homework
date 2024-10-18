@@ -1,0 +1,35 @@
+[0.008s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20
+[0.038s] [  9%] [34m[1mGenerating include/moving/moc_qnode.cpp[0m
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target moving_node[0m
+[0.067s] [ 27%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/qnode.cpp.o[0m
+[0.067s] [ 27%] [32mBuilding CXX object CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o[0m
+[0.067s] [ 36%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/main.cpp.o[0m
+[0.067s] [ 45%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/mainwindow.cpp.o[0m
+[0.069s] [ 54%] [32mBuilding CXX object CMakeFiles/moving_node.dir/include/moving/moc_qnode.cpp.o[0m
+[1.762s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/qnode.cpp:8:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool QNode::init()[m[K’
+[1.762s]     8 | bool [01;31m[KQNode[m[K::init() {
+[1.762s]       |      [01;31m[K^~~~~[m[K
+[1.762s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/qnode.cpp:1[m[K:
+[1.762s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/include/moving/qnode.hpp:17:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid QNode::init()[m[K’
+[1.762s]    17 |     void [01;36m[Kinit[m[K(); // 초기화 메소드
+[1.762s]       |          [01;36m[K^~~~[m[K
+[1.762s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/include/moving/qnode.hpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass QNode[m[K’ defined here
+[1.762s]     9 | class [01;36m[KQNode[m[K : public QThread
+[1.762s]       |       [01;36m[K^~~~~[m[K
+[1.772s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/qnode.cpp:[m[K In member function ‘[01m[Kvoid QNode::messageCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.772s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/qnode.cpp:25:10:[m[K [01;31m[Kerror: [m[K‘[01m[KmessageReceived[m[K’ was not declared in this scope
+[1.772s]    25 |     emit [01;31m[KmessageReceived[m[K(command); // 메시지를 MainWindow에 전달하는 시그널을 발생
+[1.772s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.112s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:124: CMakeFiles/moving_node.dir/src/qnode.cpp.o] Error 1
+[2.112s] gmake[2]: *** Waiting for unfinished jobs....
+[2.228s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(QWidget*, rclcpp::Node::SharedPtr)[m[K’:
+[2.228s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:35:37:[m[K [01;31m[Kerror: [m[K‘[01m[KrosShutDown[m[K’ is not a member of ‘[01m[KQNode[m[K’
+[2.228s]    35 |     QObject::connect(qnode, &QNode::[01;31m[KrosShutDown[m[K, this, &MainWindow::close);
+[2.228s]       |                                     [01;31m[K^~~~~~~~~~~[m[K
+[2.228s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:36:37:[m[K [01;31m[Kerror: [m[K‘[01m[KmessageReceived[m[K’ is not a member of ‘[01m[KQNode[m[K’
+[2.228s]    36 |     QObject::connect(qnode, &QNode::[01;31m[KmessageReceived[m[K, this, &MainWindow::processCommand); // 메시지 수신 시그널 연결
+[2.229s]       |                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.581s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+[2.620s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+[2.620s] gmake: *** [Makefile:146: all] Error 2
+[2.622s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20

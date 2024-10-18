@@ -1,0 +1,47 @@
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/qnode.cpp:55:25:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Krclcpp::Node::SharedPtr QNode::getNode() const[m[K’
+   55 | rclcpp::Node::SharedPtr [01;31m[KQNode[m[K::getNode() const {
+      |                         [01;31m[K^~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/qnode.cpp:55:25:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Krclcpp::Node::SharedPtr QNode::getNode() const[m[K’
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/qnode.cpp:1[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/qnode.hpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass QNode[m[K’ defined here
+    9 | class [01;36m[KQNode[m[K : public QThread
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(QWidget*, rclcpp::Node::SharedPtr)[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:8:18:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass Ui::MainWindowDesign[m[K’
+    8 |       ui(new Ui::[01;31m[KMainWindowDesign[m[K),
+      |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:1[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:9:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass Ui::MainWindowDesign[m[K’
+    9 | class [01;36m[KMainWindowDesign[m[K; // Ui::MainWindowDesign에 대한 전방 선언
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:13:7:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass Ui::MainWindowDesign[m[K’
+   13 |     ui[01;31m[K->[m[KsetupUi(this);
+      |       [01;31m[K^~[m[K
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:1[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:9:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass Ui::MainWindowDesign[m[K’
+    9 | class [01;36m[KMainWindowDesign[m[K; // Ui::MainWindowDesign에 대한 전방 선언
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In lambda function:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:35:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass QNode[m[K’ has no member named ‘[01m[KgetNode[m[K’; did you mean ‘[01m[KQNode[m[K’?
+   35 |         rclcpp::spin_some(qnode->[01;31m[KgetNode[m[K()); // QNode의 노드를 통해 콜백 처리
+      |                                  [01;31m[K^~~~~~~[m[K
+      |                                  [32m[KQNode[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In destructor ‘[01m[Kvirtual MainWindow::~MainWindow()[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:75:5:[m[K [01;35m[Kwarning: [m[Kpossible problem detected in invocation of ‘[01m[Koperator delete[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-incomplete-Wdelete-incomplete]8;;[m[K]
+   75 |     [01;35m[Kdelete ui[m[K;
+      |     [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:75:12:[m[K [01;35m[Kwarning: [m[Kinvalid use of incomplete type ‘[01m[Kclass Ui::MainWindowDesign[m[K’
+   75 |     delete [01;35m[Kui[m[K;
+      |            [01;35m[K^~[m[K
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:1[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:9:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass Ui::MainWindowDesign[m[K’
+    9 | class [01;36m[KMainWindowDesign[m[K; // Ui::MainWindowDesign에 대한 전방 선언
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:75:5:[m[K [01;36m[Knote: [m[Kneither the destructor nor the class-specific ‘[01m[Koperator delete[m[K’ will be called, even if they are declared when the class is defined
+   75 |     [01;36m[Kdelete ui[m[K;
+      |     [01;36m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:124: CMakeFiles/moving_node.dir/src/qnode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

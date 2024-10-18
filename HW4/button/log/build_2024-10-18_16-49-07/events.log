@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.000122] (button) JobQueued: {'identifier': 'button', 'dependencies': OrderedDict()}
+[0.000233] (button) JobStarted: {'identifier': 'button'}
+[0.004593] (button) JobProgress: {'identifier': 'button', 'progress': 'cmake'}
+[0.004877] (button) JobProgress: {'identifier': 'button', 'progress': 'build'}
+[0.005283] (button) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button', '--', '-j20', '-l20'], 'cwd': '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'kgh'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/kgh/robot_ws/install/tutorial_interface/lib:/home/kgh/robot_ws/install/custom_interface/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kgh'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1148'), ('SYSTEMD_EXEC_PID', '1548'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '19505'), ('_colcon_cd_root', '/home/kgh/robot_ws'), ('COLCON_PREFIX_PATH', '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/install:/home/kgh/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kgh'), ('JOURNAL_STREAM', '8:15690'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kgh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/kgh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kgh-Stealth-15M-B12UE:@/tmp/.ICE-unix/1521,unix/kgh-Stealth-15M-B12UE:/tmp/.ICE-unix/1521'), ('INVOCATION_ID', '2ca4b17ab03c464e9fb2ac56cca8e9f5'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button:/home/kgh/robot_ws/install/my_subscribe_pkg:/home/kgh/robot_ws/install/tutorial_interface:/home/kgh/robot_ws/install/my_publisher_pkg:/home/kgh/robot_ws/install/custom_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:3c6b4602-76b7-4ec5-85d4-8e984e163fc5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kgh/robot_ws/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/kgh/robot_ws/install/custom_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button:/home/kgh/robot_ws/install/my_subscribe_pkg:/home/kgh/robot_ws/install/tutorial_interface:/home/kgh/robot_ws/install/my_publisher_pkg:/home/kgh/robot_ws/install/custom_interface:/opt/ros/humble')]), 'shell': False}
+[0.024385] (button) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099584] (-) TimerEvent: {}
+[0.106893] (button) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.121689] (button) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.122891] (button) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.125902] (button) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.130919] (button) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.137272] (button) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.153719] (button) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.154389] (button) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199802] (-) TimerEvent: {}
+[0.210151] (button) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.243772] (button) StdoutLine: {'line': b'-- Found Qt5: 5.15.3\n'}
+[0.244903] (button) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.280048] (button) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.284866] (button) StdoutLine: {'line': b'-- Generating done\n'}
+[0.285724] (button) StdoutLine: {'line': b'-- Build files have been written to: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button\n'}
+[0.299923] (-) TimerEvent: {}
+[0.308330] (button) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target button_node\x1b[0m\n'}
+[0.331778] (button) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/button_node.dir/src/qnode.cpp.o\x1b[0m\n'}
+[0.400150] (-) TimerEvent: {}
+[0.500519] (-) TimerEvent: {}
+[0.600910] (-) TimerEvent: {}
+[0.701320] (-) TimerEvent: {}
+[0.801699] (-) TimerEvent: {}
+[0.902075] (-) TimerEvent: {}
+[1.002370] (-) TimerEvent: {}
+[1.102749] (-) TimerEvent: {}
+[1.203133] (-) TimerEvent: {}
+[1.303547] (-) TimerEvent: {}
+[1.403932] (-) TimerEvent: {}
+[1.504341] (-) TimerEvent: {}
+[1.570547] (button) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/qnode.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid QNode::init()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.570927] (button) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/qnode.cpp:26:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.570976] (button) StderrLine: {'line': b'   26 |     \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = node->create_subscription<std_msgs::msg::String>(\n'}
+[1.571004] (button) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.571028] (button) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[1.571050] (button) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/qnode.cpp:29:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KmessageCallback\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KQNode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.571076] (button) StderrLine: {'line': b'   29 |         std::bind(&QNode::\x1b[01;31m\x1b[KmessageCallback\x1b[m\x1b[K, this, std::placeholders::_1) // \xec\xbd\x9c\xeb\xb0\xb1 \xed\x95\xa8\xec\x88\x98 \xec\x97\xb0\xea\xb2\xb0\n'}
+[1.571100] (button) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.571123] (button) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/qnode.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.571148] (button) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/qnode.cpp:40:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid QNode::messageCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.571173] (button) StderrLine: {'line': b'   40 | void \x1b[01;31m\x1b[KQNode\x1b[m\x1b[K::messageCallback(const std_msgs::msg::String::SharedPtr msg)\n'}
+[1.571196] (button) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.571217] (button) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/qnode.cpp:40:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid QNode::messageCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.571240] (button) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/qnode.cpp:1\x1b[m\x1b[K:\n'}
+[1.571262] (button) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/../include/button/qnode.hpp:10:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass QNode\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[1.571290] (button) StderrLine: {'line': b'   10 | class \x1b[01;36m\x1b[KQNode\x1b[m\x1b[K : public QThread\n'}
+[1.571341] (button) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.604458] (-) TimerEvent: {}
+[1.704804] (-) TimerEvent: {}
+[1.805090] (-) TimerEvent: {}
+[1.905472] (-) TimerEvent: {}
+[2.004714] (button) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/button_node.dir/build.make:122: CMakeFiles/button_node.dir/src/qnode.cpp.o] Error 1\n'}
+[2.004877] (button) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/button_node.dir/all] Error 2\n'}
+[2.004975] (button) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.005518] (-) TimerEvent: {}
+[2.007782] (button) CommandEnded: {'returncode': 2}
+[2.039696] (button) JobEnded: {'identifier': 'button', 'rc': 2}
+[2.050105] (-) EventReactorShutdown: {}

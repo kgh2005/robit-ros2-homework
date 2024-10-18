@@ -1,0 +1,35 @@
+[0.007s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button -- -j20 -l20
+[0.036s] [  9%] [34m[1mGenerating include/button/moc_qnode.cpp[0m
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target button_node[0m
+[0.061s] [ 18%] [32mBuilding CXX object CMakeFiles/button_node.dir/src/main.cpp.o[0m
+[0.062s] [ 27%] [32mBuilding CXX object CMakeFiles/button_node.dir/src/qnode.cpp.o[0m
+[0.062s] [ 36%] [32mBuilding CXX object CMakeFiles/button_node.dir/src/mainwindow.cpp.o[0m
+[0.063s] [ 45%] [32mBuilding CXX object CMakeFiles/button_node.dir/include/button/moc_mainwindow.cpp.o[0m
+[0.063s] [ 54%] [32mBuilding CXX object CMakeFiles/button_node.dir/include/button/moc_qnode.cpp.o[0m
+[5.165s] [ 63%] [32m[1mLinking CXX executable button_node[0m
+[5.585s] [100%] Built target button_node
+[5.596s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button -- -j20 -l20
+[5.624s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button
+[5.630s] -- Install configuration: ""
+[5.630s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/lib/button/button_node
+[5.633s] -- Set runtime path of "/home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/lib/button/button_node" to ""
+[5.633s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/include/button
+[5.633s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/include/button/button
+[5.633s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/include/button/button/mainwindow.hpp
+[5.633s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/include/button/button/qnode.hpp
+[5.634s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/ament_index/resource_index/package_run_dependencies/button
+[5.634s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/ament_index/resource_index/parent_prefix_path/button
+[5.634s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/environment/ament_prefix_path.sh
+[5.634s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/environment/ament_prefix_path.dsv
+[5.634s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/environment/path.sh
+[5.634s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/environment/path.dsv
+[5.634s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/local_setup.bash
+[5.634s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/local_setup.sh
+[5.634s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/local_setup.zsh
+[5.634s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/local_setup.dsv
+[5.634s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/package.dsv
+[5.634s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/ament_index/resource_index/packages/button
+[5.634s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/cmake/buttonConfig.cmake
+[5.634s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/cmake/buttonConfig-version.cmake
+[5.634s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/package.xml
+[5.636s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button

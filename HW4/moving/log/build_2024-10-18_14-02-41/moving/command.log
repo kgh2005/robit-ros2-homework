@@ -1,0 +1,2 @@
+Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving': /usr/bin/cmake /home/kgh/GITHUB/robit-ros2-homework/HW4/moving -DCMAKE_INSTALL_PREFIX=/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving
+Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving' returned '1': /usr/bin/cmake /home/kgh/GITHUB/robit-ros2-homework/HW4/moving -DCMAKE_INSTALL_PREFIX=/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving

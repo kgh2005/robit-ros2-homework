@@ -1,0 +1,15 @@
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(QWidget*, rclcpp::Node::SharedPtr)[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:16:7:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMainWindow[m[K’ does not have any field named ‘[01m[KsceneOffset[m[K’
+   16 |       [01;31m[KsceneOffset[m[K(0, 0) { // 씬 오프셋 초기화
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvirtual void MainWindow::keyPressEvent(QKeyEvent*)[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:54:13:[m[K [01;31m[Kerror: [m[K‘[01m[KsceneOffset[m[K’ was not declared in this scope
+   54 |             [01;31m[KsceneOffset[m[K.setX(sceneOffset.x() + 10); // 왼쪽으로 이동
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:69:31:[m[K [01;31m[Kerror: [m[K‘[01m[KsceneOffset[m[K’ was not declared in this scope
+   69 |     ui->move_image->translate([01;31m[KsceneOffset[m[K.x(), sceneOffset.y()); // 씬 오프셋 적용
+      |                               [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

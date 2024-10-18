@@ -1,0 +1,24 @@
+[0.006s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button -- -j20 -l20
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target button_node[0m
+[0.055s] [  9%] [32mBuilding CXX object CMakeFiles/button_node.dir/src/qnode.cpp.o[0m
+[1.341s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/qnode.cpp:[m[K In member function ‘[01m[Kvoid QNode::init()[m[K’:
+[1.341s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/qnode.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[1.341s]    26 |     [01;31m[Ksubscription_[m[K = node->create_subscription<std_msgs::msg::String>(
+[1.341s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[1.341s]       |     [32m[Krmw_subscription_t[m[K
+[1.341s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/qnode.cpp:29:27:[m[K [01;31m[Kerror: [m[K‘[01m[KmessageCallback[m[K’ is not a member of ‘[01m[KQNode[m[K’
+[1.341s]    29 |         std::bind(&QNode::[01;31m[KmessageCallback[m[K, this, std::placeholders::_1) // 콜백 함수 연결
+[1.341s]       |                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.341s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/qnode.cpp:[m[K At global scope:
+[1.341s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/qnode.cpp:40:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid QNode::messageCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’
+[1.341s]    40 | void [01;31m[KQNode[m[K::messageCallback(const std_msgs::msg::String::SharedPtr msg)
+[1.341s]       |      [01;31m[K^~~~~[m[K
+[1.341s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/qnode.cpp:40:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid QNode::messageCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’
+[1.341s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/qnode.cpp:1[m[K:
+[1.341s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/../include/button/qnode.hpp:10:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass QNode[m[K’ defined here
+[1.341s]    10 | class [01;36m[KQNode[m[K : public QThread
+[1.341s]       |       [01;36m[K^~~~~[m[K
+[1.773s] gmake[2]: *** [CMakeFiles/button_node.dir/build.make:122: CMakeFiles/button_node.dir/src/qnode.cpp.o] Error 1
+[1.773s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/button_node.dir/all] Error 2
+[1.773s] gmake: *** [Makefile:146: all] Error 2
+[1.776s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button -- -j20 -l20

@@ -1,0 +1,27 @@
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:1[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(QWidget*)[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:33:29:[m[K [01;35m[Kwarning: [m[K‘[01m[KMainWindow::node[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   33 |     rclcpp::Node::SharedPtr [01;35m[Knode[m[K;  // 새로운 노드 포인터 추가
+      |                             [01;35m[K^~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:27:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint MainWindow::characterX[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   27 |     int [01;35m[KcharacterX[m[K;
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:6:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    6 | [01;35m[KMainWindow[m[K::MainWindow(QWidget* parent)
+      | [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[KsetupTimer[m[K’ was not declared in this scope; did you mean ‘[01m[Kstrptime[m[K’?
+   42 |     [01;31m[KsetupTimer[m[K();
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Kstrptime[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K At global scope:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:45:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid MainWindow::setupTimer()[m[K’
+   45 | void [01;31m[KMainWindow[m[K::setupTimer() {
+      |      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:45:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid MainWindow::setupTimer()[m[K’
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:1[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:14:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass MainWindow[m[K’ defined here
+   14 | class [01;36m[KMainWindow[m[K : public QMainWindow
+      |       [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

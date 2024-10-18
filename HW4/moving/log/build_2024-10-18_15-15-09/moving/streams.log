@@ -1,0 +1,19 @@
+[0.007s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20
+[0.038s] [  9%] [34m[1mGenerating include/moving/moc_mainwindow.cpp[0m
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target moving_node[0m
+[0.073s] [ 18%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/mainwindow.cpp.o[0m
+[0.073s] [ 27%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/main.cpp.o[0m
+[0.074s] [ 36%] [32mBuilding CXX object CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o[0m
+[1.747s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(QWidget*)[m[K’:
+[1.747s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::MainWindowDesign[m[K’ has no member named ‘[01m[Kcharacter[m[K’
+[1.747s]    15 |     ui->[01;31m[Kcharacter[m[K->setScene(scene); // UI에서 character라는 이름을 가진 QGraphicsView 사용
+[1.748s]       |         [01;31m[K^~~~~~~~~[m[K
+[1.748s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvirtual void MainWindow::keyReleaseEvent(QKeyEvent*)[m[K’:
+[1.748s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:63:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.748s]    63 | void MainWindow::keyReleaseEvent([01;35m[KQKeyEvent* event[m[K)
+[1.748s]       |                                  [01;35m[K~~~~~~~~~~~^~~~~[m[K
+[2.271s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+[2.271s] gmake[2]: *** Waiting for unfinished jobs....
+[2.309s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+[2.309s] gmake: *** [Makefile:146: all] Error 2
+[2.311s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20

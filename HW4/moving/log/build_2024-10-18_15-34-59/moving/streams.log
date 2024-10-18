@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20
+[0.052s] [  9%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/mainwindow.cpp.o[0m
+[0.053s] [ 18%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/main.cpp.o[0m
+[0.053s] [ 27%] [32mBuilding CXX object CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o[0m
+[0.196s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:1[m[K:
+[0.197s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:10:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+[0.197s]    10 | #include [01;31m[K<std_msgs/msg/string.hpp>[m[K  // 메시지 타입에 따라 변경
+[0.197s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.197s] compilation terminated.
+[0.197s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/include/moving/moc_mainwindow.cpp:10[m[K:
+[0.197s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/include/moving/../../../../include/moving/mainwindow.hpp:10:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+[0.197s]    10 | #include [01;31m[K<std_msgs/msg/string.hpp>[m[K  // 메시지 타입에 따라 변경
+[0.197s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.197s] compilation terminated.
+[0.197s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/main.cpp:4[m[K:
+[0.197s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:10:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+[0.197s]    10 | #include [01;31m[K<std_msgs/msg/string.hpp>[m[K  // 메시지 타입에 따라 변경
+[0.197s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.197s] compilation terminated.
+[0.207s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+[0.207s] gmake[2]: *** Waiting for unfinished jobs....
+[0.208s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:96: CMakeFiles/moving_node.dir/src/main.cpp.o] Error 1
+[0.208s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:138: CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o] Error 1
+[0.208s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+[0.208s] gmake: *** [Makefile:146: all] Error 2
+[0.210s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20

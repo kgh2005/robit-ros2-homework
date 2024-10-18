@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2"> <!-- 패키지 형식 버전을 2로 변경 -->
+  <name>button</name>
+  <version>0.1.0</version>
+  <description>
+     A brief description of the button package and its functionality.
+  </description>
+  <maintainer email="author@mail.com">author</maintainer>
+  <author>author</author>
+  <license>BSD</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>  <!-- std_msgs 의존성 추가 -->
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

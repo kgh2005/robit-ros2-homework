@@ -1,0 +1,4 @@
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvirtual void MainWindow::keyReleaseEvent(QKeyEvent*)[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:63:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   63 | void MainWindow::keyReleaseEvent([01;35m[KQKeyEvent* event[m[K)
+      |                                  [01;35m[K~~~~~~~~~~~^~~~~[m[K

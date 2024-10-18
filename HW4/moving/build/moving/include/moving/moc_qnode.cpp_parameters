@@ -1,0 +1,5 @@
+-I/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/include
+-I/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving
+-o
+/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/include/moving/moc_qnode.cpp
+/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/include/moving/qnode.hpp

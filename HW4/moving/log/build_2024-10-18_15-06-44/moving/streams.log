@@ -1,0 +1,21 @@
+[0.006s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target moving_node[0m
+[0.057s] [  9%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/mainwindow.cpp.o[0m
+[1.483s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(QWidget*)[m[K’:
+[1.483s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:15:17:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KQGraphicsScene*[m[K’ to ‘[01m[KQGraphicsEllipseItem*[m[K’ in assignment
+[1.483s]    15 |     character = [01;31m[Knew QGraphicsScene(this)[m[K;
+[1.483s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.483s]       |                 [01;31m[K|[m[K
+[1.483s]       |                 [01;31m[KQGraphicsScene*[m[K
+[1.483s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::MainWindowDesign[m[K’ has no member named ‘[01m[KgraphicsView[m[K’
+[1.483s]    16 |     ui->[01;31m[KgraphicsView[m[K->setScene(character); // 여기에서 graphicsView를 사용합니다.
+[1.483s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.483s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvirtual void MainWindow::keyReleaseEvent(QKeyEvent*)[m[K’:
+[1.483s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:64:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.483s]    64 |  MainWindow::keyReleaseEvent([01;35m[KQKeyEvent* event[m[K)
+[1.483s]       |                              [01;35m[K~~~~~~~~~~~^~~~~[m[K
+[1.483s] 
+[1.903s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+[1.903s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+[1.904s] gmake: *** [Makefile:146: all] Error 2
+[1.906s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20

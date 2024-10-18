@@ -1,0 +1,5 @@
+/usr/bin/ld: CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o:(.data.rel.ro._ZTV10MainWindow[_ZTV10MainWindow]+0x118): undefined reference to `MainWindow::closeEvent(QCloseEvent*)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:262: moving_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

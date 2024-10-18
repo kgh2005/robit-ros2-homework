@@ -1,0 +1,38 @@
+[  9%] [34m[1mGenerating include/moving/moc_mainwindow.cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target moving_node[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/main.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/mainwindow.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o[0m
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(QWidget*)[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:7:58:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMainWindow[m[K’ does not have any field named ‘[01m[Knode[m[K’
+    7 |     : QMainWindow(parent), ui(new Ui::MainWindowDesign), [01;31m[Knode[m[K(std::make_shared<rclcpp::Node>("moving_node")) // node를 멤버로 초기화
+      |                                                          [01;31m[K^~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:35:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[Kqnode[m[K’?
+   35 |     subscription_ = [01;31m[Knode[m[K->create_subscription<std_msgs::msg::String>(
+      |                     [01;31m[K^~~~[m[K
+      |                     [32m[Kqnode[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:35:68:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   35 |     subscription_ = node->create_subscription<std_msgs::msg::String[01;31m[K>[m[K(
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:36:9:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   36 |         [01;35m[K"button_messages"[m[K, // 퍼블리시하는 토픽 이름
+      |         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:38:76:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   38 |         std::bind(&MainWindow::messageCallback, this, std::placeholders::_1[01;35m[K)[m[K // 콜백 함수 연결
+      |                                                                            [01;35m[K^[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[KsetupTimer[m[K’ was not declared in this scope; did you mean ‘[01m[Kstrptime[m[K’?
+   42 |     [01;31m[KsetupTimer[m[K();
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Kstrptime[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K At global scope:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:45:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid MainWindow::setupTimer()[m[K’
+   45 | void [01;31m[KMainWindow[m[K::setupTimer() {
+      |      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:45:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid MainWindow::setupTimer()[m[K’
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:1[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:16:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass MainWindow[m[K’ defined here
+   16 | class [01;36m[KMainWindow[m[K : public QMainWindow
+      |       [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

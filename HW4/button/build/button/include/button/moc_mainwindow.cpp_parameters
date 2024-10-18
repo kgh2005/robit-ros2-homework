@@ -1,0 +1,5 @@
+-I/home/kgh/GITHUB/robit-ros2-homework/HW4/button/include
+-I/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button
+-o
+/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button/include/button/moc_mainwindow.cpp
+/home/kgh/GITHUB/robit-ros2-homework/HW4/button/include/button/mainwindow.hpp

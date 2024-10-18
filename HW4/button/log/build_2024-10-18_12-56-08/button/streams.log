@@ -1,0 +1,33 @@
+[0.006s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button': /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button -- -j20 -l20
+[0.039s] [  9%] [34m[1mGenerating ui_mainwindow.h[0m
+[0.039s] [ 18%] [34m[1mGenerating include/button/moc_mainwindow.cpp[0m
+[0.064s] [ 27%] [32mBuilding CXX object CMakeFiles/button_node.dir/src/main.cpp.o[0m
+[0.064s] [ 36%] [32mBuilding CXX object CMakeFiles/button_node.dir/src/mainwindow.cpp.o[0m
+[0.065s] [ 45%] [32mBuilding CXX object CMakeFiles/button_node.dir/include/button/moc_mainwindow.cpp.o[0m
+[2.224s] [ 54%] [32m[1mLinking CXX executable button_node[0m
+[2.489s] [100%] Built target button_node
+[2.500s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button' returned '0': /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button -- -j20 -l20
+[2.535s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button': /usr/bin/cmake --install /home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button
+[2.540s] -- Install configuration: ""
+[2.540s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/lib/button/button_node
+[2.541s] -- Set runtime path of "/home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/lib/button/button_node" to ""
+[2.541s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/include/button
+[2.541s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/include/button/button
+[2.541s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/include/button/button/mainwindow.hpp
+[2.541s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/include/button/button/qnode.hpp
+[2.541s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/ament_index/resource_index/package_run_dependencies/button
+[2.541s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/ament_index/resource_index/parent_prefix_path/button
+[2.541s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/environment/ament_prefix_path.sh
+[2.541s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/environment/ament_prefix_path.dsv
+[2.541s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/environment/path.sh
+[2.541s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/environment/path.dsv
+[2.541s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/local_setup.bash
+[2.541s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/local_setup.sh
+[2.541s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/local_setup.zsh
+[2.541s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/local_setup.dsv
+[2.541s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/package.dsv
+[2.541s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/ament_index/resource_index/packages/button
+[2.541s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/cmake/buttonConfig.cmake
+[2.541s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/cmake/buttonConfig-version.cmake
+[2.541s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/package.xml
+[2.542s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button' returned '0': /usr/bin/cmake --install /home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button

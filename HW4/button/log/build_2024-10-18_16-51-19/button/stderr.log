@@ -1,0 +1,20 @@
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/qnode.cpp:[m[K In member function ‘[01m[Kvoid QNode::init()[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/qnode.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   26 |     [01;31m[Ksubscription_[m[K = node->create_subscription<std_msgs::msg::String>(
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_subscription_t[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/qnode.cpp:29:27:[m[K [01;31m[Kerror: [m[K‘[01m[KmessageCallback[m[K’ is not a member of ‘[01m[KQNode[m[K’
+   29 |         std::bind(&QNode::[01;31m[KmessageCallback[m[K, this, std::placeholders::_1) // 콜백 함수 연결
+      |                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/qnode.cpp:[m[K At global scope:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/qnode.cpp:40:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid QNode::messageCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’
+   40 | void [01;31m[KQNode[m[K::messageCallback(const std_msgs::msg::String::SharedPtr msg)
+      |      [01;31m[K^~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/qnode.cpp:40:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid QNode::messageCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/qnode.cpp:1[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/../include/button/qnode.hpp:10:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass QNode[m[K’ defined here
+   10 | class [01;36m[KQNode[m[K : public QThread
+      |       [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/button_node.dir/build.make:122: CMakeFiles/button_node.dir/src/qnode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/button_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

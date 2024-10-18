@@ -1,0 +1,37 @@
+[0.007s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20
+[0.035s] [  9%] [34m[1mGenerating include/moving/moc_qnode.cpp[0m
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target moving_node[0m
+[0.066s] [ 18%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/main.cpp.o[0m
+[0.067s] [ 27%] [32mBuilding CXX object CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o[0m
+[0.068s] [ 36%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/mainwindow.cpp.o[0m
+[0.068s] [ 45%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/qnode.cpp.o[0m
+[0.069s] [ 54%] [32mBuilding CXX object CMakeFiles/moving_node.dir/include/moving/moc_qnode.cpp.o[0m
+[1.774s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/qnode.cpp:3:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KQNode::QNode()[m[K’
+[1.774s]     3 | [01;31m[KQNode[m[K::QNode()
+[1.774s]       | [01;31m[K^~~~~[m[K
+[1.774s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/qnode.cpp:1[m[K:
+[1.774s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/qnode.hpp:9:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KQNode::QNode(const QNode&)[m[K’
+[1.774s]     9 | class [01;36m[KQNode[m[K : public QThread
+[1.774s]       |       [01;36m[K^~~~~[m[K
+[1.774s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/qnode.hpp:14:14:[m[K [01;36m[Knote: [m[K                ‘[01m[KQNode::QNode(rclcpp::Node::SharedPtr)[m[K’
+[1.775s]    14 |     explicit [01;36m[KQNode[m[K(rclcpp::Node::SharedPtr node);
+[1.775s]       |              [01;36m[K^~~~~[m[K
+[1.775s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/qnode.hpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass QNode[m[K’ defined here
+[1.775s]     9 | class [01;36m[KQNode[m[K : public QThread
+[1.775s]       |       [01;36m[K^~~~~[m[K
+[1.998s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(QWidget*, rclcpp::Node::SharedPtr)[m[K’:
+[1.998s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:20:23:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KQNode::QNode()[m[K’
+[1.998s]    20 |     qnode = new QNode([01;31m[K)[m[K;
+[1.998s]       |                       [01;31m[K^[m[K
+[1.999s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:12[m[K,
+[1.999s]                  from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:1[m[K:
+[1.999s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/include/../include/moving/qnode.hpp:14:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQNode::QNode(rclcpp::Node::SharedPtr)[m[K’
+[1.999s]    14 |     explicit [01;36m[KQNode[m[K(rclcpp::Node::SharedPtr node);
+[1.999s]       |              [01;36m[K^~~~~[m[K
+[1.999s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/include/../include/moving/qnode.hpp:14:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[2.590s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+[2.590s] gmake[2]: *** Waiting for unfinished jobs....
+[3.237s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:124: CMakeFiles/moving_node.dir/src/qnode.cpp.o] Error 1
+[3.238s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+[3.238s] gmake: *** [Makefile:146: all] Error 2
+[3.239s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20

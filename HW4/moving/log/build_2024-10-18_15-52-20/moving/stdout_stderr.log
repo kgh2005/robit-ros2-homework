@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target moving_node[0m
+[  9%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/mainwindow.cpp.o[0m
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(QWidget*)[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:22:37:[m[K [01;31m[Kerror: [m[Kvoid value not ignored as it ought to be
+   22 |    int rosInitResult = [01;31m[Krclcpp::init(argc, argv)[m[K; // ROS 2 초기화
+      |                        [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,29 @@
+[  9%] [34m[1mGenerating include/moving/moc_mainwindow.cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target moving_node[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/main.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/mainwindow.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o[0m
+[ 45%] [32m[1mLinking CXX executable moving_node[0m
+[100%] Built target moving_node
+-- Install configuration: ""
+-- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/lib/moving/moving_node
+-- Set runtime path of "/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/lib/moving/moving_node" to ""
+-- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/include/moving
+-- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/include/moving/moving
+-- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/include/moving/moving/mainwindow.hpp
+-- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/include/moving/moving/qnode.hpp
+-- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/ament_index/resource_index/package_run_dependencies/moving
+-- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/ament_index/resource_index/parent_prefix_path/moving
+-- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/moving/environment/ament_prefix_path.sh
+-- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/moving/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/moving/environment/path.sh
+-- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/moving/environment/path.dsv
+-- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/moving/local_setup.bash
+-- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/moving/local_setup.sh
+-- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/moving/local_setup.zsh
+-- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/moving/local_setup.dsv
+-- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/moving/package.dsv
+-- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/ament_index/resource_index/packages/moving
+-- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/moving/cmake/movingConfig.cmake
+-- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/moving/cmake/movingConfig-version.cmake
+-- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/moving/package.xml

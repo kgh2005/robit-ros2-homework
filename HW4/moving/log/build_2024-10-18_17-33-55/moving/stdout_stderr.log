@@ -1,0 +1,40 @@
+[  9%] [34m[1mGenerating include/moving/moc_mainwindow.cpp[0m
+[ 18%] [34m[1mGenerating include/moving/moc_qnode.cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target moving_node[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/moving_node.dir/include/moving/moc_qnode.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/main.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/mainwindow.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/qnode.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o[0m
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/include/moving/moc_mainwindow.cpp:10[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/include/moving/../../../../include/moving/mainwindow.hpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[KUi[m[K’ does not name a type
+   20 |     [01;31m[KUi[m[K::MainWindowDesign *ui;
+      |     [01;31m[K^~[m[K
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:1[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[KUi[m[K’ does not name a type
+   20 |     [01;31m[KUi[m[K::MainWindowDesign *ui;
+      |     [01;31m[K^~[m[K
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/main.cpp:4[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[KUi[m[K’ does not name a type
+   20 |     [01;31m[KUi[m[K::MainWindowDesign *ui;
+      |     [01;31m[K^~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(QWidget*, rclcpp::Node::SharedPtr)[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:8:7:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMainWindow[m[K’ does not have any field named ‘[01m[Kui[m[K’
+    8 |       [01;31m[Kui[m[K(new Ui::MainWindowDesign),
+      |       [01;31m[K^~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:8:14:[m[K [01;31m[Kerror: [m[K‘[01m[KUi[m[K’ does not name a type
+    8 |       ui(new [01;31m[KUi[m[K::MainWindowDesign),
+      |              [01;31m[K^~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kui[m[K’ was not declared in this scope
+   13 |     [01;31m[Kui[m[K->setupUi(this);
+      |     [01;31m[K^~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In destructor ‘[01m[Kvirtual MainWindow::~MainWindow()[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:75:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kui[m[K’ was not declared in this scope
+   75 |     delete [01;31m[Kui[m[K;
+      |            [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:138: CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:96: CMakeFiles/moving_node.dir/src/main.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

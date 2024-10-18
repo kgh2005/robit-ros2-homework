@@ -1,0 +1,19 @@
+[0.007s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target moving_node[0m
+[0.059s] [  9%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/mainwindow.cpp.o[0m
+[0.060s] [ 18%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/main.cpp.o[0m
+[1.612s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(QWidget*, rclcpp::Node::SharedPtr)[m[K’:
+[1.612s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:20:27:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KQNode::QNode(rclcpp::Node::SharedPtr&)[m[K’
+[1.612s]    20 |     qnode = new QNode(node[01;31m[K)[m[K;
+[1.612s]       |                           [01;31m[K^[m[K
+[1.612s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:12[m[K,
+[1.612s]                  from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:1[m[K:
+[1.612s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/include/../include/moving/qnode.hpp:14:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQNode::QNode()[m[K’
+[1.612s]    14 |     [01;36m[KQNode[m[K();
+[1.612s]       |     [01;36m[K^~~~~[m[K
+[1.621s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/include/../include/moving/qnode.hpp:14:5:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[2.139s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+[2.139s] gmake[2]: *** Waiting for unfinished jobs....
+[2.170s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+[2.170s] gmake: *** [Makefile:146: all] Error 2
+[2.172s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20

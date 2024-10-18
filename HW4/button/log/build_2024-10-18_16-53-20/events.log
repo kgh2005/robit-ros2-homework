@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000449] (button) JobQueued: {'identifier': 'button', 'dependencies': OrderedDict()}
+[0.000511] (button) JobStarted: {'identifier': 'button'}
+[0.005108] (button) JobProgress: {'identifier': 'button', 'progress': 'cmake'}
+[0.005444] (button) JobProgress: {'identifier': 'button', 'progress': 'build'}
+[0.005855] (button) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button', '--', '-j20', '-l20'], 'cwd': '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'kgh'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/kgh/robot_ws/install/tutorial_interface/lib:/home/kgh/robot_ws/install/custom_interface/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kgh'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1148'), ('SYSTEMD_EXEC_PID', '1548'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '19505'), ('_colcon_cd_root', '/home/kgh/robot_ws'), ('COLCON_PREFIX_PATH', '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/install:/home/kgh/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kgh'), ('JOURNAL_STREAM', '8:15690'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kgh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/kgh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kgh-Stealth-15M-B12UE:@/tmp/.ICE-unix/1521,unix/kgh-Stealth-15M-B12UE:/tmp/.ICE-unix/1521'), ('INVOCATION_ID', '2ca4b17ab03c464e9fb2ac56cca8e9f5'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button:/home/kgh/robot_ws/install/my_subscribe_pkg:/home/kgh/robot_ws/install/tutorial_interface:/home/kgh/robot_ws/install/my_publisher_pkg:/home/kgh/robot_ws/install/custom_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:3c6b4602-76b7-4ec5-85d4-8e984e163fc5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kgh/robot_ws/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/kgh/robot_ws/install/custom_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button:/home/kgh/robot_ws/install/my_subscribe_pkg:/home/kgh/robot_ws/install/tutorial_interface:/home/kgh/robot_ws/install/my_publisher_pkg:/home/kgh/robot_ws/install/custom_interface:/opt/ros/humble')]), 'shell': False}
+[0.036360] (button) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating include/button/moc_qnode.cpp\x1b[0m\n'}
+[0.044613] (button) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target button_node\x1b[0m\n'}
+[0.060952] (button) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/button_node.dir/src/main.cpp.o\x1b[0m\n'}
+[0.062299] (button) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/button_node.dir/src/qnode.cpp.o\x1b[0m\n'}
+[0.062665] (button) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/button_node.dir/src/mainwindow.cpp.o\x1b[0m\n'}
+[0.063564] (button) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/button_node.dir/include/button/moc_mainwindow.cpp.o\x1b[0m\n'}
+[0.063864] (button) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/button_node.dir/include/button/moc_qnode.cpp.o\x1b[0m\n'}
+[0.099995] (-) TimerEvent: {}
+[0.200367] (-) TimerEvent: {}
+[0.300724] (-) TimerEvent: {}
+[0.401088] (-) TimerEvent: {}
+[0.501459] (-) TimerEvent: {}
+[0.601819] (-) TimerEvent: {}
+[0.702193] (-) TimerEvent: {}
+[0.802567] (-) TimerEvent: {}
+[0.902928] (-) TimerEvent: {}
+[1.003308] (-) TimerEvent: {}
+[1.103684] (-) TimerEvent: {}
+[1.204058] (-) TimerEvent: {}
+[1.304475] (-) TimerEvent: {}
+[1.404909] (-) TimerEvent: {}
+[1.505354] (-) TimerEvent: {}
+[1.605776] (-) TimerEvent: {}
+[1.706193] (-) TimerEvent: {}
+[1.806617] (-) TimerEvent: {}
+[1.907027] (-) TimerEvent: {}
+[2.007386] (-) TimerEvent: {}
+[2.107794] (-) TimerEvent: {}
+[2.208120] (-) TimerEvent: {}
+[2.308547] (-) TimerEvent: {}
+[2.408981] (-) TimerEvent: {}
+[2.509405] (-) TimerEvent: {}
+[2.609683] (-) TimerEvent: {}
+[2.710082] (-) TimerEvent: {}
+[2.810397] (-) TimerEvent: {}
+[2.910711] (-) TimerEvent: {}
+[3.011091] (-) TimerEvent: {}
+[3.111387] (-) TimerEvent: {}
+[3.211685] (-) TimerEvent: {}
+[3.312089] (-) TimerEvent: {}
+[3.412386] (-) TimerEvent: {}
+[3.512665] (-) TimerEvent: {}
+[3.613038] (-) TimerEvent: {}
+[3.713430] (-) TimerEvent: {}
+[3.813717] (-) TimerEvent: {}
+[3.914000] (-) TimerEvent: {}
+[4.014385] (-) TimerEvent: {}
+[4.114637] (-) TimerEvent: {}
+[4.214955] (-) TimerEvent: {}
+[4.315290] (-) TimerEvent: {}
+[4.415666] (-) TimerEvent: {}
+[4.515971] (-) TimerEvent: {}
+[4.616297] (-) TimerEvent: {}
+[4.716605] (-) TimerEvent: {}
+[4.816946] (-) TimerEvent: {}
+[4.917321] (-) TimerEvent: {}
+[5.017716] (-) TimerEvent: {}
+[5.118045] (-) TimerEvent: {}
+[5.165776] (button) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX executable button_node\x1b[0m\n'}
+[5.218172] (-) TimerEvent: {}
+[5.318493] (-) TimerEvent: {}
+[5.418775] (-) TimerEvent: {}
+[5.519149] (-) TimerEvent: {}
+[5.585344] (button) StdoutLine: {'line': b'[100%] Built target button_node\n'}
+[5.596244] (button) CommandEnded: {'returncode': 0}
+[5.619324] (-) TimerEvent: {}
+[5.620011] (button) JobProgress: {'identifier': 'button', 'progress': 'install'}
+[5.624461] (button) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button'], 'cwd': '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'kgh'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/kgh/robot_ws/install/tutorial_interface/lib:/home/kgh/robot_ws/install/custom_interface/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kgh'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1148'), ('SYSTEMD_EXEC_PID', '1548'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '19505'), ('_colcon_cd_root', '/home/kgh/robot_ws'), ('COLCON_PREFIX_PATH', '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/install:/home/kgh/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kgh'), ('JOURNAL_STREAM', '8:15690'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kgh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/kgh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kgh-Stealth-15M-B12UE:@/tmp/.ICE-unix/1521,unix/kgh-Stealth-15M-B12UE:/tmp/.ICE-unix/1521'), ('INVOCATION_ID', '2ca4b17ab03c464e9fb2ac56cca8e9f5'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button:/home/kgh/robot_ws/install/my_subscribe_pkg:/home/kgh/robot_ws/install/tutorial_interface:/home/kgh/robot_ws/install/my_publisher_pkg:/home/kgh/robot_ws/install/custom_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:3c6b4602-76b7-4ec5-85d4-8e984e163fc5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kgh/robot_ws/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/kgh/robot_ws/install/custom_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button:/home/kgh/robot_ws/install/my_subscribe_pkg:/home/kgh/robot_ws/install/tutorial_interface:/home/kgh/robot_ws/install/my_publisher_pkg:/home/kgh/robot_ws/install/custom_interface:/opt/ros/humble')]), 'shell': False}
+[5.630249] (button) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.630370] (button) StdoutLine: {'line': b'-- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/lib/button/button_node\n'}
+[5.633623] (button) StdoutLine: {'line': b'-- Set runtime path of "/home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/lib/button/button_node" to ""\n'}
+[5.633735] (button) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/include/button\n'}
+[5.633788] (button) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/include/button/button\n'}
+[5.633832] (button) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/include/button/button/mainwindow.hpp\n'}
+[5.633874] (button) StdoutLine: {'line': b'-- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/include/button/button/qnode.hpp\n'}
+[5.634023] (button) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/ament_index/resource_index/package_run_dependencies/button\n'}
+[5.634129] (button) StdoutLine: {'line': b'-- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/ament_index/resource_index/parent_prefix_path/button\n'}
+[5.634261] (button) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/environment/ament_prefix_path.sh\n'}
+[5.634309] (button) StdoutLine: {'line': b'-- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/environment/ament_prefix_path.dsv\n'}
+[5.634359] (button) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/environment/path.sh\n'}
+[5.634405] (button) StdoutLine: {'line': b'-- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/environment/path.dsv\n'}
+[5.634445] (button) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/local_setup.bash\n'}
+[5.634485] (button) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/local_setup.sh\n'}
+[5.634527] (button) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/local_setup.zsh\n'}
+[5.634565] (button) StdoutLine: {'line': b'-- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/local_setup.dsv\n'}
+[5.634604] (button) StdoutLine: {'line': b'-- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/package.dsv\n'}
+[5.634642] (button) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/ament_index/resource_index/packages/button\n'}
+[5.634679] (button) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/cmake/buttonConfig.cmake\n'}
+[5.634716] (button) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/cmake/buttonConfig-version.cmake\n'}
+[5.634753] (button) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button/share/button/package.xml\n'}
+[5.635873] (button) CommandEnded: {'returncode': 0}
+[5.679019] (button) JobEnded: {'identifier': 'button', 'rc': 0}
+[5.679386] (-) EventReactorShutdown: {}

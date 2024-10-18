@@ -1,0 +1,42 @@
+[0.008s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20
+[0.038s] [  9%] [34m[1mGenerating include/moving/moc_mainwindow.cpp[0m
+[0.039s] [ 18%] [34m[1mGenerating include/moving/moc_qnode.cpp[0m
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target moving_node[0m
+[0.066s] [ 27%] [32mBuilding CXX object CMakeFiles/moving_node.dir/include/moving/moc_qnode.cpp.o[0m
+[0.066s] [ 36%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/main.cpp.o[0m
+[0.066s] [ 45%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/mainwindow.cpp.o[0m
+[0.066s] [ 54%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/qnode.cpp.o[0m
+[0.067s] [ 63%] [32mBuilding CXX object CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o[0m
+[1.919s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/include/moving/moc_mainwindow.cpp:10[m[K:
+[1.919s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/include/moving/../../../../include/moving/mainwindow.hpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[KUi[m[K’ does not name a type
+[1.919s]    20 |     [01;31m[KUi[m[K::MainWindowDesign *ui;
+[1.919s]       |     [01;31m[K^~[m[K
+[1.936s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:1[m[K:
+[1.936s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[KUi[m[K’ does not name a type
+[1.936s]    20 |     [01;31m[KUi[m[K::MainWindowDesign *ui;
+[1.936s]       |     [01;31m[K^~[m[K
+[1.953s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/main.cpp:4[m[K:
+[1.953s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[KUi[m[K’ does not name a type
+[1.953s]    20 |     [01;31m[KUi[m[K::MainWindowDesign *ui;
+[1.953s]       |     [01;31m[K^~[m[K
+[1.984s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(QWidget*, rclcpp::Node::SharedPtr)[m[K’:
+[1.984s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:8:7:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMainWindow[m[K’ does not have any field named ‘[01m[Kui[m[K’
+[1.984s]     8 |       [01;31m[Kui[m[K(new Ui::MainWindowDesign),
+[1.984s]       |       [01;31m[K^~[m[K
+[1.985s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:8:14:[m[K [01;31m[Kerror: [m[K‘[01m[KUi[m[K’ does not name a type
+[1.985s]     8 |       ui(new [01;31m[KUi[m[K::MainWindowDesign),
+[1.985s]       |              [01;31m[K^~[m[K
+[1.989s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kui[m[K’ was not declared in this scope
+[1.990s]    13 |     [01;31m[Kui[m[K->setupUi(this);
+[1.990s]       |     [01;31m[K^~[m[K
+[1.998s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In destructor ‘[01m[Kvirtual MainWindow::~MainWindow()[m[K’:
+[1.998s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:75:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kui[m[K’ was not declared in this scope
+[1.998s]    75 |     delete [01;31m[Kui[m[K;
+[1.999s]       |            [01;31m[K^~[m[K
+[2.483s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:138: CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o] Error 1
+[2.483s] gmake[2]: *** Waiting for unfinished jobs....
+[2.508s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:96: CMakeFiles/moving_node.dir/src/main.cpp.o] Error 1
+[2.557s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+[5.055s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+[5.055s] gmake: *** [Makefile:146: all] Error 2
+[5.058s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20

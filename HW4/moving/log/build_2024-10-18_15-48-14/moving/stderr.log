@@ -1,0 +1,7 @@
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/main.cpp:7:22:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[KQApplication app[m[K’ has initializer but incomplete type
+    7 |     QApplication app([01;31m[Kargc[m[K, argv);
+      |                      [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:96: CMakeFiles/moving_node.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

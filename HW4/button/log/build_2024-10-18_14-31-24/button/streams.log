@@ -1,0 +1,43 @@
+[0.006s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button': /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button -- -j20 -l20
+[0.023s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.091s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.104s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.106s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.109s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.114s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.121s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.138s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.139s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.184s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.217s] -- Found Qt5: 5.15.3
+[0.218s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.247s] Error parsing '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/package.xml':
+[0.272s] Traceback (most recent call last):
+[0.272s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.272s]     main()
+[0.272s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.272s]     raise e
+[0.272s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.272s]     package = parse_package_string(
+[0.272s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[0.272s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[0.272s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/package.xml':
+[0.272s] Error(s):
+[0.273s] - The manifest of package "button" (with format version 1) must not contain the following tags: exec_depend
+[0.273s] - Either update to a newer format or replace <exec_depend> tags with <run_depend> tags.
+[0.280s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.280s]   execute_process(/usr/bin/python3
+[0.280s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.280s]   /home/kgh/GITHUB/robit-ros2-homework/HW4/button/package.xml
+[0.280s]   /home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button/ament_cmake_core/package.cmake)
+[0.280s]   returned error code 1
+[0.280s] Call Stack (most recent call first):
+[0.280s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.280s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.280s]   CMakeLists.txt:87 (ament_lint_auto_find_test_dependencies)
+[0.280s] 
+[0.280s] [0m
+[0.280s] -- Configuring incomplete, errors occurred!
+[0.280s] See also "/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button/CMakeFiles/CMakeOutput.log".
+[0.284s] gmake: *** [Makefile:402: cmake_check_build_system] Error 1
+[0.286s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button' returned '2': /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button -- -j20 -l20

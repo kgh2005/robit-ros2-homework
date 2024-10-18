@@ -1,0 +1,29 @@
+[0.007s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20
+[0.031s] [  9%] [34m[1mGenerating include/moving/moc_mainwindow.cpp[0m
+[0.031s] [ 18%] [34m[1mGenerating ui_mainwindow.h[0m
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target moving_node[0m
+[0.067s] [ 27%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/main.cpp.o[0m
+[0.068s] [ 36%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/mainwindow.cpp.o[0m
+[0.069s] [ 45%] [32mBuilding CXX object CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o[0m
+[0.213s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:13[m[K:
+[0.213s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kcharacter.hpp: No such file or directory
+[0.213s]    21 | #include [01;31m[K"character.hpp"[m[K  // Character 헤더 추가
+[0.213s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.213s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/include/moving/moc_mainwindow.cpp:10[m[K:
+[0.213s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/include/moving/../../../../include/moving/mainwindow.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kcharacter.hpp: No such file or directory
+[0.213s]    21 | #include [01;31m[K"character.hpp"[m[K  // Character 헤더 추가
+[0.213s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.213s] compilation terminated.
+[0.213s] compilation terminated.
+[0.215s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+[0.215s] gmake[2]: *** Waiting for unfinished jobs....
+[0.215s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:138: CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o] Error 1
+[0.217s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/main.cpp:4[m[K:
+[0.217s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kcharacter.hpp: No such file or directory
+[0.217s]    21 | #include [01;31m[K"character.hpp"[m[K  // Character 헤더 추가
+[0.217s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.218s] compilation terminated.
+[0.219s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:96: CMakeFiles/moving_node.dir/src/main.cpp.o] Error 1
+[0.219s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+[0.219s] gmake: *** [Makefile:146: all] Error 2
+[0.222s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20

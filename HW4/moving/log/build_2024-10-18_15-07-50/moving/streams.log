@@ -1,0 +1,24 @@
+[0.006s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target moving_node[0m
+[0.056s] [  9%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/mainwindow.cpp.o[0m
+[1.536s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(QWidget*)[m[K’:
+[1.536s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::MainWindowDesign[m[K’ has no member named ‘[01m[KgraphicsView[m[K’
+[1.536s]    17 |     ui->[01;31m[KgraphicsView[m[K->setScene(scene);
+[1.536s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.536s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:35:57:[m[K [01;31m[Kerror: [m[K‘[01m[KupdateJump[m[K’ is not a member of ‘[01m[KMainWindow[m[K’
+[1.536s]    35 | Timer::timeout, this, &MainWindow::[01;31m[KupdateJump[m[K);
+[1.536s]       |                                    [01;31m[K^~~~~~~~~~[m[K
+[1.536s] 
+[1.536s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K At global scope:
+[1.536s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:60:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid MainWindow::updateJump()[m[K’
+[1.536s]    60 | void [01;31m[KMainWindow[m[K::updateJump()
+[1.536s]       |      [01;31m[K^~~~~~~~~~[m[K
+[1.536s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:60:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid MainWindow::updateJump()[m[K’
+[1.536s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:1[m[K:
+[1.536s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:19:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass MainWindow[m[K’ defined here
+[1.536s]    19 | class [01;36m[KMainWindow[m[K : public QMainWindow
+[1.536s]       |       [01;36m[K^~~~~~~~~~[m[K
+[1.987s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+[1.987s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+[1.987s] gmake: *** [Makefile:146: all] Error 2
+[1.989s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20

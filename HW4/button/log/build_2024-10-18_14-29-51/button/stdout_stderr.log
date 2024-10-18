@@ -1,0 +1,44 @@
+[  9%] [34m[1mGenerating include/button/moc_mainwindow.cpp[0m
+[ 18%] [34m[1mGenerating include/button/moc_qnode.cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target button_node[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/button_node.dir/include/button/moc_qnode.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/button_node.dir/src/main.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/button_node.dir/src/mainwindow.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/button_node.dir/src/qnode.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/button_node.dir/include/button/moc_mainwindow.cpp.o[0m
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/qnode.cpp:13[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/../include/button/qnode.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+   21 | #include [01;31m[K<std_msgs/msg/string.hpp>[m[K  // 메시지 타입 포함
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button/include/button/moc_qnode.cpp:10[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button/include/button/../../../../include/button/qnode.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+   21 | #include [01;31m[K<std_msgs/msg/string.hpp>[m[K  // 메시지 타입 포함
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/button_node.dir/build.make:150: CMakeFiles/button_node.dir/include/button/moc_qnode.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/button_node.dir/build.make:122: CMakeFiles/button_node.dir/src/qnode.cpp.o] Error 1
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/../include/button/mainwindow.hpp:19[m[K,
+                 from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/mainwindow.cpp:13[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/../include/button/qnode.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+   21 | #include [01;31m[K<std_msgs/msg/string.hpp>[m[K  // 메시지 타입 포함
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/button_node.dir/build.make:108: CMakeFiles/button_node.dir/src/mainwindow.cpp.o] Error 1
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/../include/button/mainwindow.hpp:19[m[K,
+                 from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/main.cpp:4[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/../include/button/qnode.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+   21 | #include [01;31m[K<std_msgs/msg/string.hpp>[m[K  // 메시지 타입 포함
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/button_node.dir/build.make:94: CMakeFiles/button_node.dir/src/main.cpp.o] Error 1
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button/include/button/../../../../include/button/mainwindow.hpp:19[m[K,
+                 from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button/include/button/moc_mainwindow.cpp:10[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button/include/button/../../../../include/button/qnode.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+   21 | #include [01;31m[K<std_msgs/msg/string.hpp>[m[K  // 메시지 타입 포함
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/button_node.dir/build.make:136: CMakeFiles/button_node.dir/include/button/moc_mainwindow.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/button_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

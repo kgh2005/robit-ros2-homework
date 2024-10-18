@@ -1,0 +1,35 @@
+[0.006s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20
+[0.038s] [  9%] [34m[1mGenerating include/moving/moc_qnode.cpp[0m
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target moving_node[0m
+[0.069s] [ 18%] [32mBuilding CXX object CMakeFiles/moving_node.dir/include/moving/moc_qnode.cpp.o[0m
+[0.069s] [ 27%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/main.cpp.o[0m
+[0.069s] [ 36%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/mainwindow.cpp.o[0m
+[0.070s] [ 45%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/qnode.cpp.o[0m
+[0.070s] [ 54%] [32mBuilding CXX object CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o[0m
+[5.146s] [ 63%] [32m[1mLinking CXX executable moving_node[0m
+[5.572s] [100%] Built target moving_node
+[5.583s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20
+[5.615s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving
+[5.619s] -- Install configuration: ""
+[5.619s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/lib/moving/moving_node
+[5.622s] -- Set runtime path of "/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/lib/moving/moving_node" to ""
+[5.622s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/include/moving
+[5.623s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/include/moving/moving
+[5.623s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/include/moving/moving/mainwindow.hpp
+[5.623s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/include/moving/moving/qnode.hpp
+[5.623s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/ament_index/resource_index/package_run_dependencies/moving
+[5.623s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/ament_index/resource_index/parent_prefix_path/moving
+[5.623s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/moving/environment/ament_prefix_path.sh
+[5.623s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/moving/environment/ament_prefix_path.dsv
+[5.623s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/moving/environment/path.sh
+[5.623s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/moving/environment/path.dsv
+[5.623s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/moving/local_setup.bash
+[5.623s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/moving/local_setup.sh
+[5.623s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/moving/local_setup.zsh
+[5.623s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/moving/local_setup.dsv
+[5.623s] -- Installing: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/moving/package.dsv
+[5.623s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/ament_index/resource_index/packages/moving
+[5.623s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/moving/cmake/movingConfig.cmake
+[5.623s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/moving/cmake/movingConfig-version.cmake
+[5.623s] -- Up-to-date: /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving/share/moving/package.xml
+[5.624s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving

@@ -1,0 +1,28 @@
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/qnode.cpp:3:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KQNode::QNode()[m[K’
+    3 | [01;31m[KQNode[m[K::QNode()
+      | [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/qnode.cpp:1[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/qnode.hpp:9:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KQNode::QNode(const QNode&)[m[K’
+    9 | class [01;36m[KQNode[m[K : public QThread
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/qnode.hpp:14:14:[m[K [01;36m[Knote: [m[K                ‘[01m[KQNode::QNode(rclcpp::Node::SharedPtr)[m[K’
+   14 |     explicit [01;36m[KQNode[m[K(rclcpp::Node::SharedPtr node);
+      |              [01;36m[K^~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/qnode.hpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass QNode[m[K’ defined here
+    9 | class [01;36m[KQNode[m[K : public QThread
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(QWidget*, rclcpp::Node::SharedPtr)[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:20:23:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KQNode::QNode()[m[K’
+   20 |     qnode = new QNode([01;31m[K)[m[K;
+      |                       [01;31m[K^[m[K
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:12[m[K,
+                 from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:1[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/include/../include/moving/qnode.hpp:14:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQNode::QNode(rclcpp::Node::SharedPtr)[m[K’
+   14 |     explicit [01;36m[KQNode[m[K(rclcpp::Node::SharedPtr node);
+      |              [01;36m[K^~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/include/../include/moving/qnode.hpp:14:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:124: CMakeFiles/moving_node.dir/src/qnode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

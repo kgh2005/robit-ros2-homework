@@ -1,0 +1,12 @@
+[  9%] [34m[1mGenerating include/moving/moc_mainwindow.cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target moving_node[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/main.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/mainwindow.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o[0m
+[ 45%] [32m[1mLinking CXX executable moving_node[0m
+/usr/bin/ld: CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o:(.data.rel.ro._ZTV10MainWindow[_ZTV10MainWindow]+0xd8): undefined reference to `MainWindow::keyReleaseEvent(QKeyEvent*)'
+/usr/bin/ld: CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o:(.data.rel.ro._ZTV10MainWindow[_ZTV10MainWindow]+0x118): undefined reference to `MainWindow::closeEvent(QCloseEvent*)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:262: moving_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

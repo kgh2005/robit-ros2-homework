@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000082] (moving) JobQueued: {'identifier': 'moving', 'dependencies': OrderedDict()}
+[0.000545] (moving) JobStarted: {'identifier': 'moving'}
+[0.005609] (moving) JobProgress: {'identifier': 'moving', 'progress': 'cmake'}
+[0.005879] (moving) JobProgress: {'identifier': 'moving', 'progress': 'build'}
+[0.006285] (moving) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving', '--', '-j20', '-l20'], 'cwd': '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'kgh'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/kgh/robot_ws/install/tutorial_interface/lib:/home/kgh/robot_ws/install/custom_interface/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kgh'), ('OLDPWD', '/home/kgh/GITHUB/robit-ros2-homework/HW4'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1148'), ('SYSTEMD_EXEC_PID', '1548'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '19505'), ('_colcon_cd_root', '/home/kgh/robot_ws'), ('COLCON_PREFIX_PATH', '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install:/home/kgh/GITHUB/robit-ros2-homework/HW4/button/install:/home/kgh/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kgh'), ('JOURNAL_STREAM', '8:15690'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kgh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/kgh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kgh-Stealth-15M-B12UE:@/tmp/.ICE-unix/1521,unix/kgh-Stealth-15M-B12UE:/tmp/.ICE-unix/1521'), ('INVOCATION_ID', '2ca4b17ab03c464e9fb2ac56cca8e9f5'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving:/home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button:/home/kgh/robot_ws/install/my_subscribe_pkg:/home/kgh/robot_ws/install/tutorial_interface:/home/kgh/robot_ws/install/my_publisher_pkg:/home/kgh/robot_ws/install/custom_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:be2cad0f-b78e-49aa-972a-4e1eddfb2cf7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kgh/robot_ws/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/kgh/robot_ws/install/custom_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/install/moving:/home/kgh/GITHUB/robit-ros2-homework/HW4/button/install/button:/home/kgh/robot_ws/install/my_subscribe_pkg:/home/kgh/robot_ws/install/tutorial_interface:/home/kgh/robot_ws/install/my_publisher_pkg:/home/kgh/robot_ws/install/custom_interface:/opt/ros/humble')]), 'shell': False}
+[0.038223] (moving) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating ui_mainwindow.h\x1b[0m\n'}
+[0.038421] (moving) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating include/moving/moc_mainwindow.cpp\x1b[0m\n'}
+[0.058434] (moving) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/moving_node.dir/src/main.cpp.o\x1b[0m\n'}
+[0.060183] (moving) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/moving_node.dir/src/mainwindow.cpp.o\x1b[0m\n'}
+[0.060369] (moving) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o\x1b[0m\n'}
+[0.100056] (-) TimerEvent: {}
+[0.200487] (-) TimerEvent: {}
+[0.300908] (-) TimerEvent: {}
+[0.401371] (-) TimerEvent: {}
+[0.501794] (-) TimerEvent: {}
+[0.602233] (-) TimerEvent: {}
+[0.702657] (-) TimerEvent: {}
+[0.803099] (-) TimerEvent: {}
+[0.903532] (-) TimerEvent: {}
+[1.003999] (-) TimerEvent: {}
+[1.104436] (-) TimerEvent: {}
+[1.204882] (-) TimerEvent: {}
+[1.305373] (-) TimerEvent: {}
+[1.405838] (-) TimerEvent: {}
+[1.506304] (-) TimerEvent: {}
+[1.606744] (-) TimerEvent: {}
+[1.707191] (-) TimerEvent: {}
+[1.793108] (moving) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:1\x1b[m\x1b[K:\n'}
+[1.793312] (moving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:35:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KQNode\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.793385] (moving) StderrLine: {'line': b'   35 |     \x1b[01;31m\x1b[KQNode\x1b[m\x1b[K* qnode;\n'}
+[1.793451] (moving) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.799811] (moving) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/include/moving/moc_mainwindow.cpp:10\x1b[m\x1b[K:\n'}
+[1.800007] (moving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/include/moving/../../../../include/moving/mainwindow.hpp:35:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KQNode\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.800080] (moving) StderrLine: {'line': b'   35 |     \x1b[01;31m\x1b[KQNode\x1b[m\x1b[K* qnode;\n'}
+[1.800142] (moving) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.807322] (-) TimerEvent: {}
+[1.808719] (moving) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/main.cpp:2\x1b[m\x1b[K:\n'}
+[1.808847] (moving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/include/moving/mainwindow.hpp:35:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KQNode\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.808917] (moving) StderrLine: {'line': b'   35 |     \x1b[01;31m\x1b[KQNode\x1b[m\x1b[K* qnode;\n'}
+[1.808988] (moving) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.834504] (moving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMainWindow::MainWindow(QWidget*, rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.834685] (moving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:20:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kqnode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.834747] (moving) StderrLine: {'line': b'   20 |     \x1b[01;31m\x1b[Kqnode\x1b[m\x1b[K = new QNode();\n'}
+[1.834802] (moving) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.834857] (moving) StderrLine: {'line': b'      |     \x1b[32m\x1b[Knode\x1b[m\x1b[K\n'}
+[1.834910] (moving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:20:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected type-specifier before \xe2\x80\x98\x1b[01m\x1b[KQNode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.834972] (moving) StderrLine: {'line': b'   20 |     qnode = new \x1b[01;31m\x1b[KQNode\x1b[m\x1b[K();\n'}
+[1.835030] (moving) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.838688] (moving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:24:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klabel\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KQLabel\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.838784] (moving) StderrLine: {'line': b'   24 |     \x1b[01;31m\x1b[Klabel\x1b[m\x1b[K = new QLabel(this);\n'}
+[1.838845] (moving) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.838901] (moving) StderrLine: {'line': b'      |     \x1b[32m\x1b[KQLabel\x1b[m\x1b[K\n'}
+[1.838956] (moving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:28:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KQNode\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.839021] (moving) StderrLine: {'line': b'   28 |     QObject::connect(qnode, &\x1b[01;31m\x1b[KQNode\x1b[m\x1b[K::rosShutDown, this, &MainWindow::close);\n'}
+[1.839077] (moving) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.839130] (moving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:29:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KQNode\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.839196] (moving) StderrLine: {'line': b'   29 |     QObject::connect(qnode, &\x1b[01;31m\x1b[KQNode\x1b[m\x1b[K::messageReceived, this, &MainWindow::processCommand);\n'}
+[1.839250] (moving) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.844094] (moving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void MainWindow::keyPressEvent(QKeyEvent*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.844191] (moving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:61:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klabel\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KQLabel\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.844266] (moving) StderrLine: {'line': b'   61 |     \x1b[01;31m\x1b[Klabel\x1b[m\x1b[K->move(characterX, characterY); // QLabel\xec\x9d\x98 \xec\x9c\x84\xec\xb9\x98\xeb\xa5\xbc \xec\xa7\x81\xec\xa0\x91 \xec\x84\xa4\xec\xa0\x95\n'}
+[1.844326] (moving) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.844383] (moving) StderrLine: {'line': b'      |     \x1b[32m\x1b[KQLabel\x1b[m\x1b[K\n'}
+[1.848933] (moving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::processCommand(const QString&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.849041] (moving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:81:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klabel\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KQLabel\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.849118] (moving) StderrLine: {'line': b'   81 |     \x1b[01;31m\x1b[Klabel\x1b[m\x1b[K->move(characterX, characterY); // QLabel\xec\x9d\x98 \xec\x9c\x84\xec\xb9\x98\xeb\xa5\xbc \xec\xa7\x81\xec\xa0\x91 \xec\x84\xa4\xec\xa0\x95\n'}
+[1.849178] (moving) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.849233] (moving) StderrLine: {'line': b'      |     \x1b[32m\x1b[KQLabel\x1b[m\x1b[K\n'}
+[1.852705] (moving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::updateJump()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.852805] (moving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:95:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klabel\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KQLabel\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.852870] (moving) StderrLine: {'line': b'   95 |     \x1b[01;31m\x1b[Klabel\x1b[m\x1b[K->move(characterX, characterY); // QLabel\xec\x9d\x98 \xec\x9c\x84\xec\xb9\x98\xeb\xa5\xbc \xec\xa7\x81\xec\xa0\x91 \xec\x84\xa4\xec\xa0\x95\n'}
+[1.852929] (moving) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.852994] (moving) StderrLine: {'line': b'      |     \x1b[32m\x1b[KQLabel\x1b[m\x1b[K\n'}
+[1.856464] (moving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:\x1b[m\x1b[K In destructor \xe2\x80\x98\x1b[01m\x1b[Kvirtual MainWindow::~MainWindow()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.856554] (moving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:104:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klabel\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KQLabel\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.856629] (moving) StderrLine: {'line': b'  104 |     delete \x1b[01;31m\x1b[Klabel\x1b[m\x1b[K; // QLabel \xec\x82\xad\xec\xa0\x9c\n'}
+[1.856688] (moving) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.856745] (moving) StderrLine: {'line': b'      |            \x1b[32m\x1b[KQLabel\x1b[m\x1b[K\n'}
+[1.859807] (moving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:105:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kqnode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.859898] (moving) StderrLine: {'line': b'  105 |     delete \x1b[01;31m\x1b[Kqnode\x1b[m\x1b[K;\n'}
+[1.859959] (moving) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.860029] (moving) StderrLine: {'line': b'      |            \x1b[32m\x1b[Knode\x1b[m\x1b[K\n'}
+[1.907554] (-) TimerEvent: {}
+[2.007999] (-) TimerEvent: {}
+[2.108447] (-) TimerEvent: {}
+[2.208905] (-) TimerEvent: {}
+[2.309294] (-) TimerEvent: {}
+[2.409802] (-) TimerEvent: {}
+[2.456506] (moving) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:96: CMakeFiles/moving_node.dir/src/main.cpp.o] Error 1\n'}
+[2.456694] (moving) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[2.460426] (moving) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:138: CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o] Error 1\n'}
+[2.485588] (moving) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1\n'}
+[2.485839] (moving) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2\n'}
+[2.485921] (moving) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.487416] (moving) CommandEnded: {'returncode': 2}
+[2.509913] (-) TimerEvent: {}
+[2.519901] (moving) JobEnded: {'identifier': 'moving', 'rc': 2}
+[2.530362] (-) EventReactorShutdown: {}

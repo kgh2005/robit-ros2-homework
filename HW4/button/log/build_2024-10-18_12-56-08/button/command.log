@@ -1,0 +1,4 @@
+Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button': /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button -- -j20 -l20
+Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button' returned '0': /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button -- -j20 -l20
+Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button': /usr/bin/cmake --install /home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button
+Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button' returned '0': /usr/bin/cmake --install /home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button

@@ -1,0 +1,21 @@
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(QWidget*)[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   34 |     [01;31m[Ksubscription_[m[K = node->create_subscription<std_msgs::msg::String>(
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_subscription_t[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:37:32:[m[K [01;31m[Kerror: [m[K‘[01m[KmessageCallback[m[K’ is not a member of ‘[01m[KMainWindow[m[K’
+   37 |         std::bind(&MainWindow::[01;31m[KmessageCallback[m[K, this, std::placeholders::_1) // 콜백 함수 연결
+      |                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K At global scope:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:84:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid MainWindow::messageCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’
+   84 | void [01;31m[KMainWindow[m[K::messageCallback(const std_msgs::msg::String::SharedPtr msg)
+      |      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:84:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid MainWindow::messageCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:1[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:16:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass MainWindow[m[K’ defined here
+   16 | class [01;36m[KMainWindow[m[K : public QMainWindow
+      |       [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

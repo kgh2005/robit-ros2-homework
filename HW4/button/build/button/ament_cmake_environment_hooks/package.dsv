@@ -1,0 +1,4 @@
+source;share/button/local_setup.bash
+source;share/button/local_setup.dsv
+source;share/button/local_setup.sh
+source;share/button/local_setup.zsh

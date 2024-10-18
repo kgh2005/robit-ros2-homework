@@ -1,0 +1,67 @@
+[0.007s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20
+[0.038s] [ 18%] [34m[1mGenerating ui_mainwindow.h[0m
+[0.038s] [ 18%] [34m[1mGenerating include/moving/moc_mainwindow.cpp[0m
+[0.058s] [ 27%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/main.cpp.o[0m
+[0.060s] [ 36%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/mainwindow.cpp.o[0m
+[0.060s] [ 45%] [32mBuilding CXX object CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o[0m
+[1.793s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:1[m[K:
+[1.793s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[KQNode[m[K’ does not name a type
+[1.793s]    35 |     [01;31m[KQNode[m[K* qnode;
+[1.793s]       |     [01;31m[K^~~~~[m[K
+[1.799s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/include/moving/moc_mainwindow.cpp:10[m[K:
+[1.800s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/include/moving/../../../../include/moving/mainwindow.hpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[KQNode[m[K’ does not name a type
+[1.800s]    35 |     [01;31m[KQNode[m[K* qnode;
+[1.800s]       |     [01;31m[K^~~~~[m[K
+[1.808s] In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/main.cpp:2[m[K:
+[1.808s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/include/moving/mainwindow.hpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[KQNode[m[K’ does not name a type
+[1.808s]    35 |     [01;31m[KQNode[m[K* qnode;
+[1.808s]       |     [01;31m[K^~~~~[m[K
+[1.834s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(QWidget*, rclcpp::Node::SharedPtr)[m[K’:
+[1.834s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kqnode[m[K’ was not declared in this scope; did you mean ‘[01m[Knode[m[K’?
+[1.834s]    20 |     [01;31m[Kqnode[m[K = new QNode();
+[1.834s]       |     [01;31m[K^~~~~[m[K
+[1.834s]       |     [32m[Knode[m[K
+[1.834s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:20:17:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KQNode[m[K’
+[1.834s]    20 |     qnode = new [01;31m[KQNode[m[K();
+[1.835s]       |                 [01;31m[K^~~~~[m[K
+[1.838s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:24:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klabel[m[K’ was not declared in this scope; did you mean ‘[01m[KQLabel[m[K’?
+[1.838s]    24 |     [01;31m[Klabel[m[K = new QLabel(this);
+[1.838s]       |     [01;31m[K^~~~~[m[K
+[1.838s]       |     [32m[KQLabel[m[K
+[1.838s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:28:30:[m[K [01;31m[Kerror: [m[K‘[01m[KQNode[m[K’ has not been declared
+[1.839s]    28 |     QObject::connect(qnode, &[01;31m[KQNode[m[K::rosShutDown, this, &MainWindow::close);
+[1.839s]       |                              [01;31m[K^~~~~[m[K
+[1.839s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:29:30:[m[K [01;31m[Kerror: [m[K‘[01m[KQNode[m[K’ has not been declared
+[1.839s]    29 |     QObject::connect(qnode, &[01;31m[KQNode[m[K::messageReceived, this, &MainWindow::processCommand);
+[1.839s]       |                              [01;31m[K^~~~~[m[K
+[1.844s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvirtual void MainWindow::keyPressEvent(QKeyEvent*)[m[K’:
+[1.844s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:61:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klabel[m[K’ was not declared in this scope; did you mean ‘[01m[KQLabel[m[K’?
+[1.844s]    61 |     [01;31m[Klabel[m[K->move(characterX, characterY); // QLabel의 위치를 직접 설정
+[1.844s]       |     [01;31m[K^~~~~[m[K
+[1.844s]       |     [32m[KQLabel[m[K
+[1.848s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::processCommand(const QString&)[m[K’:
+[1.849s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:81:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klabel[m[K’ was not declared in this scope; did you mean ‘[01m[KQLabel[m[K’?
+[1.849s]    81 |     [01;31m[Klabel[m[K->move(characterX, characterY); // QLabel의 위치를 직접 설정
+[1.849s]       |     [01;31m[K^~~~~[m[K
+[1.849s]       |     [32m[KQLabel[m[K
+[1.852s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::updateJump()[m[K’:
+[1.852s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:95:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klabel[m[K’ was not declared in this scope; did you mean ‘[01m[KQLabel[m[K’?
+[1.852s]    95 |     [01;31m[Klabel[m[K->move(characterX, characterY); // QLabel의 위치를 직접 설정
+[1.852s]       |     [01;31m[K^~~~~[m[K
+[1.852s]       |     [32m[KQLabel[m[K
+[1.856s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In destructor ‘[01m[Kvirtual MainWindow::~MainWindow()[m[K’:
+[1.856s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:104:12:[m[K [01;31m[Kerror: [m[K‘[01m[Klabel[m[K’ was not declared in this scope; did you mean ‘[01m[KQLabel[m[K’?
+[1.856s]   104 |     delete [01;31m[Klabel[m[K; // QLabel 삭제
+[1.856s]       |            [01;31m[K^~~~~[m[K
+[1.856s]       |            [32m[KQLabel[m[K
+[1.859s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:105:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kqnode[m[K’ was not declared in this scope; did you mean ‘[01m[Knode[m[K’?
+[1.859s]   105 |     delete [01;31m[Kqnode[m[K;
+[1.859s]       |            [01;31m[K^~~~~[m[K
+[1.860s]       |            [32m[Knode[m[K
+[2.456s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:96: CMakeFiles/moving_node.dir/src/main.cpp.o] Error 1
+[2.456s] gmake[2]: *** Waiting for unfinished jobs....
+[2.460s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:138: CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o] Error 1
+[2.485s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+[2.485s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+[2.485s] gmake: *** [Makefile:146: all] Error 2
+[2.488s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20

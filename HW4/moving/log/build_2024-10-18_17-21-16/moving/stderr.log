@@ -1,0 +1,18 @@
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:68:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K}[m[K’ token
+   68 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:65:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+   65 | nWindow::keyReleaseEvent[34m[K([m[KQKeyEvent*[01;31m[K [m[K//event) {
+      |                         [34m[K~[m[K          [01;31m[K^[m[K
+      |                                    [32m[K)[m[K
+......
+   68 | 
+      |                                     
+
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:68:1:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K}[m[K’ token
+   68 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:68:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

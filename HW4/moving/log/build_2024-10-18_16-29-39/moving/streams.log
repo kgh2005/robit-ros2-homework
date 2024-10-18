@@ -1,0 +1,22 @@
+[0.007s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20
+[0.038s] [  9%] [34m[1mGenerating include/moving/moc_mainwindow.cpp[0m
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target moving_node[0m
+[0.063s] [ 18%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/main.cpp.o[0m
+[0.065s] [ 27%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/mainwindow.cpp.o[0m
+[0.065s] [ 36%] [32mBuilding CXX object CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o[0m
+[2.040s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(QWidget*, rclcpp::Node::SharedPtr)[m[K’:
+[2.040s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:16:7:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMainWindow[m[K’ does not have any field named ‘[01m[KsceneOffset[m[K’
+[2.040s]    16 |       [01;31m[KsceneOffset[m[K(0, 0) { // 씬 오프셋 초기화
+[2.040s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[2.054s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvirtual void MainWindow::keyPressEvent(QKeyEvent*)[m[K’:
+[2.054s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:54:13:[m[K [01;31m[Kerror: [m[K‘[01m[KsceneOffset[m[K’ was not declared in this scope
+[2.055s]    54 |             [01;31m[KsceneOffset[m[K.setX(sceneOffset.x() + 10); // 왼쪽으로 이동
+[2.055s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[2.061s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:69:31:[m[K [01;31m[Kerror: [m[K‘[01m[KsceneOffset[m[K’ was not declared in this scope
+[2.061s]    69 |     ui->move_image->translate([01;31m[KsceneOffset[m[K.x(), sceneOffset.y()); // 씬 오프셋 적용
+[2.061s]       |                               [01;31m[K^~~~~~~~~~~[m[K
+[2.413s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+[2.413s] gmake[2]: *** Waiting for unfinished jobs....
+[2.457s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+[2.457s] gmake: *** [Makefile:146: all] Error 2
+[2.459s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20

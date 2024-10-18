@@ -1,0 +1,30 @@
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/include/moving/moc_mainwindow.cpp:10[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/include/moving/../../../../include/moving/mainwindow.hpp:6:10:[m[K [01;31m[Kfatal error: [m[K../include/button/qnode.hpp: No such file or directory
+    6 | #include [01;31m[K"../include/button/qnode.hpp"[m[K // QNode 헤더 포함
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:138: CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:1[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:6:10:[m[K [01;31m[Kfatal error: [m[K../include/button/qnode.hpp: No such file or directory
+    6 | #include [01;31m[K"../include/button/qnode.hpp"[m[K // QNode 헤더 포함
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/main.cpp:4[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/mainwindow.hpp:6:10:[m[K [01;31m[Kfatal error: [m[K../include/button/qnode.hpp: No such file or directory
+    6 | #include [01;31m[K"../include/button/qnode.hpp"[m[K // QNode 헤더 포함
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:96: CMakeFiles/moving_node.dir/src/main.cpp.o] Error 1
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/qnode.cpp:55:25:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Krclcpp::Node::SharedPtr QNode::getNode() const[m[K’
+   55 | rclcpp::Node::SharedPtr [01;31m[KQNode[m[K::getNode() const {
+      |                         [01;31m[K^~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/qnode.cpp:55:25:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Krclcpp::Node::SharedPtr QNode::getNode() const[m[K’
+In file included from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/qnode.cpp:1[m[K:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/../include/moving/qnode.hpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass QNode[m[K’ defined here
+    9 | class [01;36m[KQNode[m[K : public QThread
+      |       [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:124: CMakeFiles/moving_node.dir/src/qnode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

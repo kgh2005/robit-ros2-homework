@@ -1,0 +1,5 @@
+[ 18%] [34m[1mGenerating ui_mainwindow.h[0m
+[ 18%] [34m[1mGenerating include/moving/moc_mainwindow.cpp[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/main.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/mainwindow.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o[0m

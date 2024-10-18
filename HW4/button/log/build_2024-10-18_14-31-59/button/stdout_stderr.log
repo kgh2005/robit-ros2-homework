@@ -1,0 +1,51 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found Qt5: 5.15.3
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kgh/GITHUB/robit-ros2-homework/HW4/button/build/button
+[35m[1mConsolidate compiler generated dependencies of target button_node[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/button_node.dir/src/main.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/button_node.dir/src/mainwindow.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/button_node.dir/include/button/moc_qnode.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/button_node.dir/qrc_images.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/button_node.dir/include/button/moc_mainwindow.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/button_node.dir/src/qnode.cpp.o[0m
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/qnode.cpp:[m[K In constructor ‘[01m[KQNode::QNode()[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/qnode.cpp:23:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher[m[K’?
+   23 |   [01;31m[Kpublisher_[m[K = node->create_publisher<std_msgs::msg::String>("keypad_commands", 10);
+      |   [01;31m[K^~~~~~~~~~[m[K
+      |   [32m[Kpublisher[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(QWidget*)[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/mainwindow.cpp:25:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass QNode[m[K’ has no member named ‘[01m[Kinit[m[K’
+   25 |   qnode->[01;31m[Kinit[m[K();        // QNode 초기화
+      |          [01;31m[K^~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::on_right_button_clicked()[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/mainwindow.cpp:51:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass QNode[m[K’ has no member named ‘[01m[Kpublisher_[m[K’; did you mean ‘[01m[Kpublisher[m[K’?
+   51 |     qnode->[01;31m[Kpublisher_[m[K->publish(message);  // QNode를 통해 메시지 퍼블리시
+      |            [01;31m[K^~~~~~~~~~[m[K
+      |            [32m[Kpublisher[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::on_left_button_clicked()[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/mainwindow.cpp:58:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass QNode[m[K’ has no member named ‘[01m[Kpublisher_[m[K’; did you mean ‘[01m[Kpublisher[m[K’?
+   58 |     qnode->[01;31m[Kpublisher_[m[K->publish(message);  // QNode를 통해 메시지 퍼블리시
+      |            [01;31m[K^~~~~~~~~~[m[K
+      |            [32m[Kpublisher[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::on_jump_button_clicked()[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/button/src/mainwindow.cpp:65:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass QNode[m[K’ has no member named ‘[01m[Kpublisher_[m[K’; did you mean ‘[01m[Kpublisher[m[K’?
+   65 |     qnode->[01;31m[Kpublisher_[m[K->publish(message);  // QNode를 통해 메시지 퍼블리시
+      |            [01;31m[K^~~~~~~~~~[m[K
+      |            [32m[Kpublisher[m[K
+gmake[2]: *** [CMakeFiles/button_node.dir/build.make:122: CMakeFiles/button_node.dir/src/qnode.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/button_node.dir/build.make:108: CMakeFiles/button_node.dir/src/mainwindow.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/button_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

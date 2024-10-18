@@ -1,0 +1,37 @@
+[  9%] [34m[1mGenerating include/moving/moc_mainwindow.cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target moving_node[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/main.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/mainwindow.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/moving_node.dir/include/moving/moc_mainwindow.cpp.o[0m
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(QWidget*)[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::MainWindowDesign[m[K’ has no member named ‘[01m[KgraphicsView[m[K’
+   17 |     ui->[01;31m[KgraphicsView[m[K->setScene(scene);
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::updateJump()[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:70:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   70 |                 characterY += 5;[01;31m[K [m[K// 내려감
+      |                                 [01;31m[K^[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:69:35:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   69 |             if (characterY < 290) [01;36m[K{[m[K
+      |                                   [01;36m[K^[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:70:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   70 |                 characterY += 5;[01;31m[K [m[K// 내려감
+      |                                 [01;31m[K^[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:67:16:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   67 |         } else [01;36m[K{[m[K
+      |                [01;36m[K^[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:70:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   70 |                 characterY += 5;[01;31m[K [m[K// 내려감
+      |                                 [01;31m[K^[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:62:20:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   62 |     if (isJumping) [01;36m[K{[m[K
+      |                    [01;36m[K^[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:70:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   70 |                 characterY += 5;[01;31m[K [m[K// 내려감
+      |                                 [01;31m[K^[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:61:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   61 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

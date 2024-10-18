@@ -1,0 +1,56 @@
+[0.006s] Invoking command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target moving_node[0m
+[0.057s] [  9%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/mainwindow.cpp.o[0m
+[1.717s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvirtual void MainWindow::keyPressEvent(QKeyEvent*)[m[K’:
+[1.717s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:58:50:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass QScrollBar[m[K’
+[1.717s]    58 | ->move_image->horizontalScrollBar()[01;31m[K->[m[KsetValue(ui->move_image->horizontalScrollBar()->value() - 10); // 왼쪽으로 이동
+[1.717s]       |                                    [01;31m[K^~[m[K
+[1.717s] 
+[1.717s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h:44[m[K,
+[1.717s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h:46[m[K,
+[1.717s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView:1[m[K,
+[1.717s]                  from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/ui_mainwindow.h:17[m[K,
+[1.717s]                  from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:2[m[K:
+[1.717s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h:52:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass QScrollBar[m[K’
+[1.717s]    52 | class [01;36m[KQScrollBar[m[K;
+[1.717s]       |       [01;36m[K^~~~~~~~~~[m[K
+[1.717s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:58:98:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass QScrollBar[m[K’
+[1.717s]    58 | ->move_image->horizontalScrollBar()[01;31m[K->[m[Kvalue() - 10); // 왼쪽으로 이동
+[1.717s]       |                                    [01;31m[K^~[m[K
+[1.717s] 
+[1.717s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h:44[m[K,
+[1.717s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h:46[m[K,
+[1.717s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView:1[m[K,
+[1.717s]                  from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/ui_mainwindow.h:17[m[K,
+[1.717s]                  from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:2[m[K:
+[1.717s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h:52:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass QScrollBar[m[K’
+[1.717s]    52 | class [01;36m[KQScrollBar[m[K;
+[1.717s]       |       [01;36m[K^~~~~~~~~~[m[K
+[1.717s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:61:50:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass QScrollBar[m[K’
+[1.717s]    61 | ->move_image->horizontalScrollBar()[01;31m[K->[m[KsetValue(ui->move_image->horizontalScrollBar()->value() + 10); // 오른쪽으로 이동
+[1.718s]       |                                    [01;31m[K^~[m[K
+[1.718s] 
+[1.718s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h:44[m[K,
+[1.718s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h:46[m[K,
+[1.718s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView:1[m[K,
+[1.718s]                  from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/ui_mainwindow.h:17[m[K,
+[1.718s]                  from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:2[m[K:
+[1.718s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h:52:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass QScrollBar[m[K’
+[1.718s]    52 | class [01;36m[KQScrollBar[m[K;
+[1.718s]       |       [01;36m[K^~~~~~~~~~[m[K
+[1.718s] [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:61:98:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass QScrollBar[m[K’
+[1.718s]    61 | ->move_image->horizontalScrollBar()[01;31m[K->[m[Kvalue() + 10); // 오른쪽으로 이동
+[1.718s]       |                                    [01;31m[K^~[m[K
+[1.718s] 
+[1.718s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h:44[m[K,
+[1.718s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h:46[m[K,
+[1.718s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView:1[m[K,
+[1.718s]                  from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/ui_mainwindow.h:17[m[K,
+[1.718s]                  from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:2[m[K:
+[1.718s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h:52:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass QScrollBar[m[K’
+[1.718s]    52 | class [01;36m[KQScrollBar[m[K;
+[1.718s]       |       [01;36m[K^~~~~~~~~~[m[K
+[2.044s] gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+[2.044s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+[2.044s] gmake: *** [Makefile:146: all] Error 2
+[2.046s] Invoked command in '/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving -- -j20 -l20

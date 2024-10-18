@@ -1,0 +1,54 @@
+[35m[1mConsolidate compiler generated dependencies of target moving_node[0m
+[  9%] [32mBuilding CXX object CMakeFiles/moving_node.dir/src/mainwindow.cpp.o[0m
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvirtual void MainWindow::keyPressEvent(QKeyEvent*)[m[K’:
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:58:50:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass QScrollBar[m[K’
+   58 | ->move_image->horizontalScrollBar()[01;31m[K->[m[KsetValue(ui->move_image->horizontalScrollBar()->value() - 10); // 왼쪽으로 이동
+      |                                    [01;31m[K^~[m[K
+
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h:44[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h:46[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView:1[m[K,
+                 from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/ui_mainwindow.h:17[m[K,
+                 from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:2[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h:52:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass QScrollBar[m[K’
+   52 | class [01;36m[KQScrollBar[m[K;
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:58:98:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass QScrollBar[m[K’
+   58 | ->move_image->horizontalScrollBar()[01;31m[K->[m[Kvalue() - 10); // 왼쪽으로 이동
+      |                                    [01;31m[K^~[m[K
+
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h:44[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h:46[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView:1[m[K,
+                 from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/ui_mainwindow.h:17[m[K,
+                 from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:2[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h:52:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass QScrollBar[m[K’
+   52 | class [01;36m[KQScrollBar[m[K;
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:61:50:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass QScrollBar[m[K’
+   61 | ->move_image->horizontalScrollBar()[01;31m[K->[m[KsetValue(ui->move_image->horizontalScrollBar()->value() + 10); // 오른쪽으로 이동
+      |                                    [01;31m[K^~[m[K
+
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h:44[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h:46[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView:1[m[K,
+                 from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/ui_mainwindow.h:17[m[K,
+                 from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:2[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h:52:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass QScrollBar[m[K’
+   52 | class [01;36m[KQScrollBar[m[K;
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:61:98:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass QScrollBar[m[K’
+   61 | ->move_image->horizontalScrollBar()[01;31m[K->[m[Kvalue() + 10); // 오른쪽으로 이동
+      |                                    [01;31m[K^~[m[K
+
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h:44[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h:46[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView:1[m[K,
+                 from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/build/moving/ui_mainwindow.h:17[m[K,
+                 from [01m[K/home/kgh/GITHUB/robit-ros2-homework/HW4/moving/src/mainwindow.cpp:2[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h:52:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass QScrollBar[m[K’
+   52 | class [01;36m[KQScrollBar[m[K;
+      |       [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moving_node.dir/build.make:110: CMakeFiles/moving_node.dir/src/mainwindow.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moving_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
